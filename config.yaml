@@ -1,8 +1,8 @@
 run:
   score_thresholds:
-    jobsdb: 80
-    linkedin: 70
-    official: 60
+    jobsdb: 75
+    linkedin: 75
+    official: 70
   max_jobs_per_source: 50
   notification_candidate_limit: 30
   report_limit: 200
