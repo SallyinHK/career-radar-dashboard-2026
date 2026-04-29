@@ -19,7 +19,7 @@ It monitors selected company career pages / ATS boards, compares each role with 
   - ntfy, recommended if Telegram registration asks for SMS fee
   - Telegram
   - Discord webhook
-- Runs once or every 2 hours
+- Runs once or every 12 hours
 
 ## What this MVP intentionally does not do
 
