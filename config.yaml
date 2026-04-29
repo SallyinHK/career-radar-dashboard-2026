@@ -114,6 +114,7 @@ filters:
   - head of
   - director
   - Singaporean
+  max_required_years: 2
 telegram:
   message_title: Job Fit Radar
   max_roles_per_message: 10

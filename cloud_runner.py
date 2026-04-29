@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 from jobfit.classify import classify_job_type, short_job_type, source_label
 from jobfit.gemini_screen import clean_company, screen_jobs_with_gemini, should_hide_job
 from jobfit.company_quality import apply_company_quality, should_hide_by_company_quality
+from jobfit.hard_filters import is_hard_excluded
 from main import scan_once
 
 load_dotenv()
@@ -302,7 +303,7 @@ def ensure_jobsdb_source_picks(rows: list[dict], all_jobs: list[dict], config: d
         if best_score < min_score:
             continue
 
-        if should_hide_job(job, config) or should_hide_by_company_quality(job):
+        if should_hide_job(job, config) or should_hide_by_company_quality(job) or is_hard_excluded(job, config):
             continue
 
         extra.append(job)
@@ -576,7 +577,7 @@ def run_one_scan(label: str, source_file: str, state: dict):
     merged_jobs = screen_jobs_with_gemini(merged_jobs, profile_text, config)
 
     save_json(PUBLIC_JOBS_PATH, merged_jobs)
-    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)]
+    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x) and not is_hard_excluded(x, load_config())]
     dashboard_rows = add_region_representatives(dashboard_rows)
     dashboard_rows = ensure_jobsdb_source_picks(dashboard_rows, merged_jobs, config, limit=40, min_score=60)
 
@@ -585,7 +586,7 @@ def run_one_scan(label: str, source_file: str, state: dict):
     sent_urls = set(state.get("sent_urls", []))
     new_high = [r for r in current_rows if r["url"] and r["url"] not in sent_urls]
 
-    screened_current_urls = {x.get("url") for x in merged_jobs if not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)}
+    screened_current_urls = {x.get("url") for x in merged_jobs if not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x) and not is_hard_excluded(x, load_config())}
     new_high = [r for r in new_high if r["url"] in screened_current_urls]
 
     if new_high:
@@ -634,7 +635,7 @@ def main():
         print("Refreshing dashboard from existing cloud_jobs.json.")
         jobs = load_json(PUBLIC_JOBS_PATH, [])
         min_score = threshold()
-        rows = [x for x in jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)]
+        rows = [x for x in jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x) and not is_hard_excluded(x, load_config())]
         rows = add_region_representatives(rows)
 
         # Do not overwrite a non-empty dashboard with 0 roles unless this is truly intentional.
