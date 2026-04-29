@@ -11,9 +11,14 @@ from pathlib import Path
 
 import requests
 import yaml
+from dotenv import load_dotenv
 
 from jobfit.classify import classify_job_type, short_job_type, source_label
+from jobfit.gemini_screen import clean_company, screen_jobs_with_gemini, should_hide_job
+from jobfit.company_quality import apply_company_quality, should_hide_by_company_quality
 from main import scan_once
+
+load_dotenv()
 
 
 STATE_PATH = Path("cloud_state.json")
@@ -167,17 +172,28 @@ def row_to_public_job(row) -> dict:
     reasons = safe_loads(row["reasons_json"] if "reasons_json" in row.keys() else "")
     reasons = [str(x) for x in reasons if str(x).strip()][:3]
 
+    src = source_label(row)
+    company = clean_company(row["company"], src)
+
+    description = ""
+    try:
+        if "description" in row.keys():
+            description = row["description"] or ""
+    except Exception:
+        description = ""
+
     return {
         "title": row["title"],
-        "company": row["company"],
+        "company": company,
         "location": row["location"],
         "url": row["url"],
         "score": int(row["score"] or 0),
         "recommendation": row["recommendation"] if "recommendation" in row.keys() else "Review",
         "priority": row["priority"] if "priority" in row.keys() else "",
-        "source": source_label(row),
+        "source": src,
         "job_type": classify_job_type(row),
         "reasons": reasons,
+        "description": description[:3000],
         "first_seen_at": iso_now(),
         "last_seen_at": iso_now(),
     }
@@ -505,13 +521,27 @@ def run_one_scan(label: str, source_file: str, state: dict):
     current_rows = [r for r in raw_rows if int(r['score'] or 0) >= threshold_for_item(r)]
 
     merged_jobs = merge_recent_jobs(current_rows)
-    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x)]
+
+    profile_text = Path("profile.md").read_text(encoding="utf-8") if Path("profile.md").exists() else ""
+    config = load_config()
+
+    # Company quality rules run before Gemini.
+    merged_jobs = apply_company_quality(merged_jobs, config)
+
+    # Gemini is only used as a small secondary screening layer.
+    merged_jobs = screen_jobs_with_gemini(merged_jobs, profile_text, config)
+
+    save_json(PUBLIC_JOBS_PATH, merged_jobs)
+    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)]
     dashboard_rows = add_region_representatives(dashboard_rows)
 
     write_public_dashboard(dashboard_rows)
 
     sent_urls = set(state.get("sent_urls", []))
     new_high = [r for r in current_rows if r["url"] and r["url"] not in sent_urls]
+
+    screened_current_urls = {x.get("url") for x in merged_jobs if not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)}
+    new_high = [r for r in new_high if r["url"] in screened_current_urls]
 
     if new_high:
         send_ntfy(new_high, scan_label=label, total_high=len(new_high))
@@ -559,7 +589,7 @@ def main():
         print("Refreshing dashboard from existing cloud_jobs.json.")
         jobs = load_json(PUBLIC_JOBS_PATH, [])
         min_score = threshold()
-        rows = [x for x in jobs if int(x.get("score", 0)) >= threshold_for_item(x)]
+        rows = [x for x in jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)]
         rows = add_region_representatives(rows)
 
         # Do not overwrite a non-empty dashboard with 0 roles unless this is truly intentional.
