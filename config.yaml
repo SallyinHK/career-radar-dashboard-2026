@@ -1,6 +1,6 @@
 run:
   score_thresholds:
-    jobsdb: 75
+    jobsdb: 78
     linkedin: 75
     official: 70
   max_jobs_per_source: 50
@@ -64,6 +64,16 @@ filters:
   - vp
   - head of
   - director
+  - lead generation
+  - human resources
+  - hr associate
+  - billing operations
+  - test automation
+  - sales officer
+  - administrative
+  - relationship manager
+  - business development executive
+  - recruitment consultant
   negative_keywords:
   - senior manager
   - director
