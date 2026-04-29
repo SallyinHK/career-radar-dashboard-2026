@@ -2,6 +2,12 @@ name: Job Fit Radar
 
 on:
   workflow_dispatch:
+    inputs:
+      debug_jobsdb:
+        description: "Run JobsDB / JobStreet cloud diagnostic"
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "0 */6 * * *"
 
@@ -57,6 +63,11 @@ jobs:
         run: |
           python -u cloud_runner.py
 
+      - name: Run JobsDB cloud diagnostic
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_jobsdb == true }}
+        run: |
+          python -u debug_jobsdb_cloud.py
+
       - name: Commit dashboard and cloud state
         run: |
           git config user.name "github-actions[bot]"
@@ -72,6 +83,10 @@ jobs:
 
           if [ -f cloud_jobs.json ]; then
             git add cloud_jobs.json
+          fi
+
+          if [ -d debug_pages ]; then
+            git add debug_pages
           fi
 
           if git diff --cached --quiet; then
