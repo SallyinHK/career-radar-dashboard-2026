@@ -27,12 +27,15 @@ def apply_company_quality_one(job: dict[str, Any], config: dict[str, Any]) -> di
     preferred_company_bonus = int(quality.get("preferred_company_bonus", 5))
     risk_penalty = int(quality.get("risk_penalty", 20))
 
-    original_score = int(job.get("score", 0) or 0)
+    original_score = int(job.get("original_score", job.get("score", 0)) or 0)
     adjusted = original_score
 
     company = str(job.get("company", "") or "").strip()
     title = str(job.get("title", "") or "").strip()
     source = str(job.get("source", "") or "").strip()
+    url = str(job.get("url", "") or "").strip()
+    source_url_text = f"{source} {url}".lower()
+    is_jobsdb_or_jobstreet = "jobsdb" in source_url_text or "jobstreet" in source_url_text
     text = _text(job)
 
     reasons = []
@@ -68,8 +71,11 @@ def apply_company_quality_one(job: dict[str, Any], config: dict[str, Any]) -> di
     ]
 
     if not company or any(p in company_lower for p in fake_company_patterns):
-        adjusted -= weak_company_penalty
-        reasons.append("Company name is missing or looks like a source label.")
+        if is_jobsdb_or_jobstreet:
+            reasons.append("Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet.")
+        else:
+            adjusted -= weak_company_penalty
+            reasons.append("Company name is missing or looks like a source label.")
 
     # 5. Extra downgrade for vague consultant titles.
     vague_consultant_patterns = [
