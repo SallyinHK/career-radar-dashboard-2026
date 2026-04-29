@@ -6,7 +6,7 @@ import os
 import shutil
 import sqlite3
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -17,39 +17,69 @@ from main import scan_once
 
 
 STATE_PATH = Path("cloud_state.json")
+PUBLIC_JOBS_PATH = Path("cloud_jobs.json")
 DOCS_PATH = Path("docs/index.html")
 
 FAST_INTERVAL_SECONDS = 12 * 60 * 60
 SLOW_INTERVAL_SECONDS = 36 * 60 * 60
 SLOW_INITIAL_DELAY_SECONDS = 6 * 60 * 60
 
+RETENTION_DAYS = 7
+
 
 def now_ts() -> float:
     return time.time()
+
+
+def now_dt() -> datetime:
+    return datetime.now(timezone.utc)
 
 
 def now_text() -> str:
     return datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
-def load_state() -> dict:
-    current = now_ts()
-    if STATE_PATH.exists():
+def iso_now() -> str:
+    return now_dt().isoformat()
+
+
+def parse_iso(value: str) -> datetime:
+    try:
+        return datetime.fromisoformat(value)
+    except Exception:
+        return now_dt()
+
+
+def esc(x) -> str:
+    return html.escape(str(x or ""))
+
+
+def load_json(path: Path, default):
+    if path.exists():
         try:
-            return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            return json.loads(path.read_text(encoding="utf-8"))
         except Exception:
             pass
+    return default
 
-    return {
+
+def save_json(path: Path, data) -> None:
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def load_state() -> dict:
+    current = now_ts()
+    default = {
         "created_at": current,
         "last_fast_scan": 0,
         "last_slow_scan": current - SLOW_INTERVAL_SECONDS + SLOW_INITIAL_DELAY_SECONDS,
         "sent_urls": [],
     }
+    return load_json(STATE_PATH, default)
 
 
 def save_state(state: dict) -> None:
-    STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    save_json(STATE_PATH, state)
 
 
 def load_config() -> dict:
@@ -62,11 +92,18 @@ def threshold() -> int:
     return int(config.get("score_threshold", 80))
 
 
-def esc(x) -> str:
-    return html.escape(str(x or ""))
+def safe_loads(value):
+    try:
+        if not value:
+            return []
+        if isinstance(value, list):
+            return value
+        return json.loads(value)
+    except Exception:
+        return []
 
 
-def get_rows(min_score: int = 0, limit: int = 200):
+def get_rows(min_score: int = 0, limit: int = 300):
     db_path = os.getenv("DATABASE_PATH", "jobs.db")
     con = sqlite3.connect(db_path)
     con.row_factory = sqlite3.Row
@@ -84,59 +121,100 @@ def get_rows(min_score: int = 0, limit: int = 200):
     return rows
 
 
-def get_dashboard_rows(min_score: int):
-    rows = list(get_rows(min_score=min_score, limit=200))
-    seen = {r["url"] for r in rows}
+def row_to_public_job(row) -> dict:
+    reasons = safe_loads(row["reasons_json"] if "reasons_json" in row.keys() else "")
+    reasons = [str(x) for x in reasons if str(x).strip()][:3]
 
-    # Add one best representative role per region if not already visible.
-    db_path = os.getenv("DATABASE_PATH", "jobs.db")
-    con = sqlite3.connect(db_path)
-    con.row_factory = sqlite3.Row
-
-    region_filters = {
-        "Hong Kong": "location LIKE '%Hong%' OR url LIKE '%hk.jobsdb.com%'",
-        "Singapore": "location LIKE '%Singapore%' OR url LIKE '%sg.jobstreet.com%'",
-        "Korea": "location LIKE '%Korea%' OR location LIKE '%Seoul%' OR url LIKE '%South%20Korea%' OR url LIKE '%Seoul%'",
-        "Japan": "location LIKE '%Japan%' OR location LIKE '%Tokyo%' OR url LIKE '%Tokyo%2C%20Japan%'",
+    return {
+        "title": row["title"],
+        "company": row["company"],
+        "location": row["location"],
+        "url": row["url"],
+        "score": int(row["score"] or 0),
+        "recommendation": row["recommendation"] if "recommendation" in row.keys() else "Review",
+        "priority": row["priority"] if "priority" in row.keys() else "",
+        "source": source_label(row),
+        "job_type": classify_job_type(row),
+        "reasons": reasons,
+        "first_seen_at": iso_now(),
+        "last_seen_at": iso_now(),
     }
 
-    for region, where in region_filters.items():
-        already = False
-        for r in rows:
-            loc = str(r["location"] or "").lower()
-            url = str(r["url"] or "").lower()
-            if region == "Hong Kong" and ("hong" in loc or "hk.jobsdb.com" in url):
-                already = True
-            elif region == "Singapore" and ("singapore" in loc or "sg.jobstreet.com" in url):
-                already = True
-            elif region == "Korea" and ("korea" in loc or "seoul" in loc or "south%20korea" in url):
-                already = True
-            elif region == "Japan" and ("japan" in loc or "tokyo" in loc or "tokyo%2c%20japan" in url):
-                already = True
 
-        if already:
+def merge_recent_jobs(current_rows) -> list[dict]:
+    """Merge current scan results into public-safe 7-day job history."""
+    existing = load_json(PUBLIC_JOBS_PATH, [])
+    by_url = {}
+
+    for item in existing:
+        url = item.get("url")
+        if url:
+            by_url[url] = item
+
+    for row in current_rows:
+        item = row_to_public_job(row)
+        url = item.get("url")
+        if not url:
             continue
 
-        top = con.execute(
-            f"""
-            SELECT *
-            FROM jobs
-            WHERE ({where})
-            ORDER BY score DESC, first_seen_at DESC
-            LIMIT 1
-            """
-        ).fetchone()
+        if url in by_url:
+            old = by_url[url]
+            old.update({
+                "title": item["title"],
+                "company": item["company"],
+                "location": item["location"],
+                "score": max(int(old.get("score", 0)), item["score"]),
+                "recommendation": item["recommendation"],
+                "priority": item["priority"],
+                "source": item["source"],
+                "job_type": item["job_type"],
+                "reasons": item["reasons"] or old.get("reasons", []),
+                "last_seen_at": iso_now(),
+            })
+        else:
+            by_url[url] = item
 
-        if top and top["url"] not in seen:
-            rows.append(top)
-            seen.add(top["url"])
+    cutoff = now_dt() - timedelta(days=RETENTION_DAYS)
+    kept = []
+    for item in by_url.values():
+        last_seen = parse_iso(item.get("last_seen_at", ""))
+        if last_seen >= cutoff:
+            kept.append(item)
 
-    con.close()
-    rows.sort(key=lambda r: int(r["score"] or 0), reverse=True)
-    return rows
+    kept.sort(key=lambda x: (int(x.get("score", 0)), x.get("last_seen_at", "")), reverse=True)
+    save_json(PUBLIC_JOBS_PATH, kept)
+    return kept
 
 
-def write_public_dashboard(rows):
+def add_region_representatives(rows: list[dict]) -> list[dict]:
+    """Ensure dashboard has at least one representative job per region if available."""
+    regions = {
+        "Hong Kong": lambda x: "hong" in str(x.get("location", "")).lower() or "hk.jobsdb.com" in str(x.get("url", "")).lower(),
+        "Singapore": lambda x: "singapore" in str(x.get("location", "")).lower() or "sg.jobstreet.com" in str(x.get("url", "")).lower(),
+        "Korea": lambda x: "korea" in str(x.get("location", "")).lower() or "seoul" in str(x.get("location", "")).lower(),
+        "Japan": lambda x: "japan" in str(x.get("location", "")).lower() or "tokyo" in str(x.get("location", "")).lower(),
+    }
+
+    selected = list(rows)
+    selected_urls = {x.get("url") for x in selected}
+
+    all_jobs = load_json(PUBLIC_JOBS_PATH, [])
+    for region, predicate in regions.items():
+        if any(predicate(x) for x in selected):
+            continue
+
+        candidates = [x for x in all_jobs if predicate(x)]
+        candidates.sort(key=lambda x: int(x.get("score", 0)), reverse=True)
+
+        if candidates and candidates[0].get("url") not in selected_urls:
+            selected.append(candidates[0])
+            selected_urls.add(candidates[0].get("url"))
+
+    selected.sort(key=lambda x: int(x.get("score", 0)), reverse=True)
+    return selected
+
+
+def write_public_dashboard(rows: list[dict]):
     DOCS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     sections = {
@@ -147,7 +225,7 @@ def write_public_dashboard(rows):
     }
 
     for r in rows:
-        sections.setdefault(classify_job_type(r), []).append(r)
+        sections.setdefault(r.get("job_type", "Other / Review"), []).append(r)
 
     nav = []
     body = []
@@ -162,13 +240,20 @@ def write_public_dashboard(rows):
         body.append(f'<h2 id="{anchor}">{esc(section)} <span>{len(items)} role(s)</span></h2>')
 
         for r in items:
-            title = esc(r["title"])
-            company = esc(r["company"])
-            location = esc(r["location"])
-            score = esc(r["score"])
-            url = esc(r["url"])
-            src = esc(source_label(r))
-            typ = esc(classify_job_type(r))
+            title = esc(r.get("title"))
+            company = esc(r.get("company"))
+            location = esc(r.get("location"))
+            score = esc(r.get("score"))
+            url = esc(r.get("url"))
+            src = esc(r.get("source"))
+            typ = esc(r.get("job_type"))
+            last_seen = esc(str(r.get("last_seen_at", ""))[:16].replace("T", " "))
+
+            reasons = r.get("reasons") or []
+            if reasons:
+                reasons_html = "".join(f"<li>{esc(x)}</li>" for x in reasons[:3])
+            else:
+                reasons_html = "<li>Open the application link to review role details.</li>"
 
             body.append(f"""
             <article class="card">
@@ -178,8 +263,16 @@ def write_public_dashboard(rows):
                 <span class="pill">{src}</span>
                 <span class="pill">{typ}</span>
               </div>
+
               <h3>{title}</h3>
-              <p>{company} · {location}</p>
+              <p class="sub">{company} · {location}</p>
+
+              <div class="why">
+                <h4>Why it may fit</h4>
+                <ul>{reasons_html}</ul>
+              </div>
+
+              <p class="seen">Last seen: {last_seen}</p>
               <a class="button" href="{url}" target="_blank" rel="noopener">Open application link</a>
             </article>
             """)
@@ -212,9 +305,12 @@ def write_public_dashboard(rows):
       font-size: 34px;
       letter-spacing: -0.03em;
     }}
-    .sub {{
+    .sub, .seen {{
       color: #667085;
-      margin-bottom: 22px;
+    }}
+    .seen {{
+      font-size: 14px;
+      margin-top: 12px;
     }}
     .nav {{
       display: flex;
@@ -271,8 +367,15 @@ def write_public_dashboard(rows):
       font-size: 21px;
       margin: 14px 0 6px;
     }}
-    p {{
-      color: #667085;
+    h4 {{
+      margin: 18px 0 6px;
+      color: #344054;
+    }}
+    ul {{
+      margin-top: 6px;
+    }}
+    li {{
+      margin: 4px 0;
     }}
     .button {{
       display: inline-block;
@@ -289,7 +392,7 @@ def write_public_dashboard(rows):
 <body>
   <main class="wrap">
     <h1>Job Fit Radar Shortlist</h1>
-    <p class="sub">Generated at {generated}. Showing {total} role(s). Public-safe version: no CV or profile details included.</p>
+    <p class="sub">Generated at {generated}. Showing {total} role(s) from the last {RETENTION_DAYS} days. Public-safe version: no CV or profile details included.</p>
     <nav class="nav">{''.join(nav)}</nav>
     {''.join(body)}
   </main>
@@ -326,11 +429,9 @@ def send_ntfy(rows, scan_label: str, total_high: int):
         lines.append(f"Score: {r['score']}/100")
         lines.append(f"Apply: {r['url']}")
 
-    text = "\n".join(lines)
-
     resp = requests.post(
         f"{server}/{topic}",
-        data=text.encode("utf-8"),
+        data="\n".join(lines).encode("utf-8"),
         headers={
             "Title": "Job Fit Radar",
             "Priority": "default",
@@ -355,17 +456,19 @@ def run_one_scan(label: str, source_file: str, state: dict):
     if db_path.exists():
         db_path.unlink()
 
-    # Use existing app logic, but cloud_runner handles notification and public dashboard.
     scan_once(send=False)
 
     min_score = threshold()
-    rows = get_rows(min_score=min_score, limit=200)
+    current_rows = get_rows(min_score=min_score, limit=300)
+
+    merged_jobs = merge_recent_jobs(current_rows)
+    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= min_score]
+    dashboard_rows = add_region_representatives(dashboard_rows)
+
+    write_public_dashboard(dashboard_rows)
 
     sent_urls = set(state.get("sent_urls", []))
-    new_high = [r for r in rows if r["url"] and r["url"] not in sent_urls]
-
-    dashboard_rows = get_dashboard_rows(min_score=min_score)
-    write_public_dashboard(dashboard_rows)
+    new_high = [r for r in current_rows if r["url"] and r["url"] not in sent_urls]
 
     if new_high:
         send_ntfy(new_high, scan_label=label, total_high=len(new_high))
@@ -375,7 +478,7 @@ def run_one_scan(label: str, source_file: str, state: dict):
     state["sent_urls"] = sorted(sent_urls)
     state[f"last_{label.lower()}_scan"] = now_ts()
 
-    print(f"[{now_text()}] {label} scan done. New high-match roles: {len(new_high)}")
+    print(f"[{now_text()}] {label} scan done. Current high-match roles: {len(current_rows)}. New high-match roles: {len(new_high)}.")
     return True
 
 
@@ -388,7 +491,6 @@ def main():
 
     ran_any = False
 
-    # If both are somehow due, run slow first, then fast.
     if due_slow:
         ran_any = run_one_scan("SLOW", "sources_slow.yaml", state) or ran_any
 
@@ -396,9 +498,12 @@ def main():
         ran_any = run_one_scan("FAST", "sources_fast.yaml", state) or ran_any
 
     if not ran_any:
-        print("No scan due. Refreshing dashboard from existing data if available.")
-        if Path(os.getenv("DATABASE_PATH", "jobs.db")).exists():
-            write_public_dashboard(get_dashboard_rows(min_score=threshold()))
+        print("No scan due. Refreshing dashboard from cloud_jobs.json if available.")
+        jobs = load_json(PUBLIC_JOBS_PATH, [])
+        min_score = threshold()
+        rows = [x for x in jobs if int(x.get("score", 0)) >= min_score]
+        rows = add_region_representatives(rows)
+        write_public_dashboard(rows)
 
     save_state(state)
 

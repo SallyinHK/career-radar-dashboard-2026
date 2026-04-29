@@ -68,7 +68,7 @@ jobs:
 
           git status --short
 
-          git add docs/index.html cloud_state.json
+          git add docs/index.html cloud_state.json cloud_jobs.json
 
           if git diff --cached --quiet; then
             echo "No dashboard/state changes to commit."
