@@ -486,8 +486,16 @@ def main():
     state = load_state()
     current = now_ts()
 
+    is_manual_run = os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+
     due_fast = current - float(state.get("last_fast_scan", 0)) >= FAST_INTERVAL_SECONDS
     due_slow = current - float(state.get("last_slow_scan", 0)) >= SLOW_INTERVAL_SECONDS
+
+    # When manually clicking "Run workflow", force a FAST scan so the dashboard
+    # is populated immediately. Scheduled runs still use the 12h / 36h logic.
+    if is_manual_run:
+        print("Manual workflow run detected. Forcing FAST scan.")
+        due_fast = True
 
     ran_any = False
 
@@ -498,11 +506,25 @@ def main():
         ran_any = run_one_scan("FAST", "sources_fast.yaml", state) or ran_any
 
     if not ran_any:
-        print("No scan due. Refreshing dashboard from cloud_jobs.json if available.")
+        print("No scan due.")
+
+        if not PUBLIC_JOBS_PATH.exists():
+            print("cloud_jobs.json does not exist yet. Keeping existing dashboard unchanged.")
+            save_state(state)
+            return
+
+        print("Refreshing dashboard from existing cloud_jobs.json.")
         jobs = load_json(PUBLIC_JOBS_PATH, [])
         min_score = threshold()
         rows = [x for x in jobs if int(x.get("score", 0)) >= min_score]
         rows = add_region_representatives(rows)
+
+        # Do not overwrite a non-empty dashboard with 0 roles unless this is truly intentional.
+        if not rows and DOCS_PATH.exists():
+            print("No rows available from cloud_jobs.json. Keeping existing dashboard unchanged.")
+            save_state(state)
+            return
+
         write_public_dashboard(rows)
 
     save_state(state)
