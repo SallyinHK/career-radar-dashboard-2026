@@ -272,6 +272,50 @@ def add_region_representatives(rows: list[dict]) -> list[dict]:
     return selected
 
 
+
+def is_jobsdb_or_jobstreet_item(item) -> bool:
+    text = f"{item.get('source', '')} {item.get('url', '')}".lower()
+    return "jobsdb" in text or "jobstreet" in text
+
+
+def ensure_jobsdb_source_picks(rows: list[dict], all_jobs: list[dict], config: dict, limit: int = 40, min_score: int = 60) -> list[dict]:
+    """
+    Keep a small JobsDB/JobStreet block in the dashboard even if those roles are
+    below the normal source threshold. This prevents cloud runs from wiping out
+    local JobsDB history.
+    """
+    existing_urls = {r.get("url") for r in rows if r.get("url")}
+    extra = []
+
+    for job in all_jobs:
+        if not is_jobsdb_or_jobstreet_item(job):
+            continue
+
+        url = job.get("url")
+        if not url or url in existing_urls:
+            continue
+
+        score = int(job.get("score", 0) or 0)
+        original_score = int(job.get("original_score", score) or 0)
+        best_score = max(score, original_score)
+
+        if best_score < min_score:
+            continue
+
+        if should_hide_job(job, config) or should_hide_by_company_quality(job):
+            continue
+
+        extra.append(job)
+
+    extra.sort(key=lambda x: int(x.get("score", x.get("original_score", 0)) or 0), reverse=True)
+
+    for job in extra[:limit]:
+        rows.append(job)
+        existing_urls.add(job.get("url"))
+
+    rows.sort(key=lambda x: int(x.get("score", x.get("original_score", 0)) or 0), reverse=True)
+    return rows
+
 def write_public_dashboard(rows: list[dict]):
     DOCS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -534,6 +578,7 @@ def run_one_scan(label: str, source_file: str, state: dict):
     save_json(PUBLIC_JOBS_PATH, merged_jobs)
     dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x) and not should_hide_job(x, load_config()) and not should_hide_by_company_quality(x)]
     dashboard_rows = add_region_representatives(dashboard_rows)
+    dashboard_rows = ensure_jobsdb_source_picks(dashboard_rows, merged_jobs, config, limit=40, min_score=60)
 
     write_public_dashboard(dashboard_rows)
 

@@ -1769,7 +1769,7 @@
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91809390",
-    "score": 68,
+    "score": 76,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -1785,14 +1785,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 76,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Data Analyst/Finance Analyst",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91815140",
-    "score": 68,
+    "score": 76,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -1808,7 +1808,7 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 76,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Regional Assistant Data Analyst",
@@ -2049,7 +2049,7 @@
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91800431",
-    "score": 66,
+    "score": 74,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2065,14 +2065,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 74,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance Operations Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91818248",
-    "score": 62,
+    "score": 70,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2088,14 +2088,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 70,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst - Data Strategy Delivery & BI",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819167",
-    "score": 62,
+    "score": 70,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2111,14 +2111,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 70,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Internship - Supply Chain Planning Data Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91812814",
-    "score": 60,
+    "score": 68,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2134,14 +2134,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 68,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Deals Advisory - Associate",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91817922",
-    "score": 59,
+    "score": 67,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2157,14 +2157,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 67,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Cybersecurity Compliance Analyst | Up to $5500 | Boon Lay | 5 days #5252",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815742",
-    "score": 58,
+    "score": 66,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -2180,14 +2180,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Strategy & Execution Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819569",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2203,14 +2203,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Operational Risk Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91816263",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2226,14 +2226,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance and Business Management Analyst",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91820442",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2249,14 +2249,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Business Analyst –Insurance ( 1 Year Contract)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91817723",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2272,14 +2272,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance Planning Analyst/Officer",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819709",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2295,14 +2295,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Financial Analyst-FP&A",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819100",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2318,14 +2318,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Product Risk Solutions Analyst (Sustainability Domain)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820511",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2341,14 +2341,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Data Analyst, Risk",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91808313",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2364,14 +2364,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "(Assistant) Security Analyst - Digital Forensics focused",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91806552",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2387,14 +2387,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst IS-83387",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91809655",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2410,14 +2410,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst (TAP)",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91806094",
-    "score": 58,
+    "score": 66,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2433,14 +2433,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 66,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Supply Chain Management Officer (Welcome Fresh Graduate)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91817770",
-    "score": 57,
+    "score": 65,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2456,14 +2456,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 65,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Contract Compliance Officer (IPO business focus; fresh graduates are welcomed)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91812021",
-    "score": 57,
+    "score": 65,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2479,14 +2479,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 65,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "ACSA Management Trainee (MT) Program 2026",
     "company": "JobsDB HK - Consulting Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818299",
-    "score": 57,
+    "score": 65,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2502,14 +2502,14 @@
     "ai_reason": "google-genai package not installed",
     "original_score": 65,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Treasury Operations Analyst",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818078",
-    "score": 55,
+    "score": 63,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2523,14 +2523,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353178+00:00",
     "original_score": 63,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Analyst, Accounting (Retail Accounting )",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91807879",
-    "score": 54,
+    "score": 62,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -2544,14 +2544,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354236+00:00",
     "original_score": 62,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Graduate Training Programme - Wealth Bankers (Bank Sector Client - Singapore)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91817169",
-    "score": 53,
+    "score": 61,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -2565,14 +2565,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354393+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Summer Intern - Logistics / Supply Chain (1 June - 31 Aug)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91821342",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2587,14 +2587,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353373+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Junior Risk Management Officer",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91810477",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2608,14 +2608,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353352+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Internship - Media Research Consultants",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820634",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2630,14 +2630,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353322+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Internship - Media Research Consultants",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91812446",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2651,14 +2651,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353302+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Intern, Finance Data & Analytics",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91812202",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2672,14 +2672,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353278+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Intern, Business Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91794444",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2693,14 +2693,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353253+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Internship - Data Analyst (Automotive Supply Chain and Production Management)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91792620",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2715,14 +2715,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353229+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "MANAGEMENT TRAINEE, FINANCE",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820406",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2736,14 +2736,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353207+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "MANAGEMENT TRAINEE, FINANCE",
     "company": "JobStreet SG - Management Trainee recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91807567",
-    "score": 53,
+    "score": 61,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2757,14 +2757,14 @@
     "last_seen_at": "2026-04-29T14:13:30.618997+00:00",
     "original_score": 61,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance Officer, Investment Banking",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818049",
-    "score": 52,
+    "score": 60,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2778,14 +2778,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353453+00:00",
     "original_score": 60,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance & Strategy Analyst (Japanese Speaking)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91811522",
-    "score": 52,
+    "score": 60,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2799,14 +2799,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353427+00:00",
     "original_score": 60,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Strategic Analytics & Insights Business Partner (Finance/ Tech & Durables)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819962",
-    "score": 52,
+    "score": 60,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2820,14 +2820,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353400+00:00",
     "original_score": 60,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Distribution Compliance Officer (1 Year Contract)",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815233",
-    "score": 52,
+    "score": 60,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2841,14 +2841,14 @@
     "last_seen_at": "2026-04-29T13:26:00.603609+00:00",
     "original_score": 60,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Lead, Distribution Compliance Analytics and Reporting",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815238",
-    "score": 52,
+    "score": 60,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -2862,14 +2862,14 @@
     "last_seen_at": "2026-04-29T13:26:00.603588+00:00",
     "original_score": 60,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Sales Associate",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91820297",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2883,14 +2883,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353823+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Consultant - Financial Services (FSI)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91820302",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2904,14 +2904,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353797+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Oracle Cloud Engineer or EBS/Fusion Consultant ( 2 Openings )",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818112",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2925,14 +2925,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353773+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Project Analyst / Support - Bank/FX/securities/Wealth",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91814795",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2946,14 +2946,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353747+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Analyst/ Consultant/ Senior Consultant - Valuation & Modelling",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91814369",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2967,14 +2967,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353722+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Insurer Perm role - Analyst Programmer | Up to 30K",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91810167",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -2988,14 +2988,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353696+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Banking Operations Analyst (Contract)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91808977",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3009,14 +3009,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353670+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815586",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3030,14 +3030,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353616+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Application Consultant (Permanent)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91818433",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3051,14 +3051,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353590+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Project Consultant / Project Executive #84272",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91813288",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3072,14 +3072,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353564+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Project & Operations Analyst | Changi | Up to $4500 + Bonus | #5252",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91812357",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3093,14 +3093,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353537+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Securities & Trade Settlement Associate (Bank / UP4.1K)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91811426",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3114,14 +3114,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353509+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Audit Associate (ID: 695318)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91810313",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3135,14 +3135,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353481+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Technical PM / PE / Business Analyst ( Up to 60K )",
     "company": "JobsDB HK - Consulting Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816593",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -3156,14 +3156,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619763+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst",
     "company": "JobsDB HK - Consulting Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816337",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -3177,14 +3177,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619738+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Operations Analyst - WEST (Banking)",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91811392",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3198,14 +3198,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619614+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Operations Analyst (6 Months Contract)",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819119",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3219,14 +3219,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619464+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Associate, Client Implementation Specialist",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815376",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3240,14 +3240,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619440+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "QA Analyst, Product Operations",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91805344",
-    "score": 51,
+    "score": 59,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3261,14 +3261,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619359+00:00",
     "original_score": 59,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "見習主任 (空運 / 物流) Supervisor Trainee (Operations / Logistics Service)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91186227",
-    "score": 50,
+    "score": 58,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3282,14 +3282,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354473+00:00",
     "original_score": 58,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Fraud Operations Specialist - Banking",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91815824",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -3303,14 +3303,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354022+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "合規風控專員/Compliance & Risk Management Specialist",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91814723",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -3324,14 +3324,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353993+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Intern - HIG HBM PSE",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820728",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3346,14 +3346,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353964+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Finance and Accounting Intern",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820608",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3368,14 +3368,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353943+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Intern (Application Support)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91820622",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3390,14 +3390,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353921+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Junior SAP Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91513933",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3411,14 +3411,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353901+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Intern - IT Quality Assurance",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819913",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3432,14 +3432,14 @@
     "last_seen_at": "2026-04-29T16:39:41.353874+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Marketing Intern (Part Time) - The Whoo",
     "company": "JobsDB HK - Consulting Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816601",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobsDB HK",
@@ -3453,14 +3453,14 @@
     "last_seen_at": "2026-04-29T14:13:30.619983+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Intern, Investment & Asset Management, CLASML",
     "company": "JobStreet SG - Consulting Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91812299",
-    "score": 49,
+    "score": 57,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3474,14 +3474,14 @@
     "last_seen_at": "2026-04-29T13:26:00.604410+00:00",
     "original_score": 57,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Specialist, Data Analytics, Digital & eCommerce CoA, APAC",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819696",
-    "score": 48,
+    "score": 56,
     "recommendation": "Apply",
     "priority": "High",
     "source": "JobStreet SG",
@@ -3495,14 +3495,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354052+00:00",
     "original_score": 56,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Solution Analyst 40-55K",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91821463",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3517,14 +3517,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354365+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Investment Analyst",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91287793",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3538,14 +3538,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354342+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Application Security Analyst",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818667",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3559,14 +3559,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354317+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Analyst, M&A",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819140",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3580,14 +3580,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354290+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Desk Quant Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91817836",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3601,14 +3601,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354262+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Financial Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91793439",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3623,14 +3623,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354210+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Financial Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91811428",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3645,14 +3645,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354187+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Analyst",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91817843",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3666,14 +3666,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354164+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Service Analyst - .net App Support (ERP Apps Ops)",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91821225",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3688,14 +3688,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354107+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Applications Support Analyst - L2/3",
     "company": "",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91818424",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3709,14 +3709,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354079+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Test Automation: System Analyst - Major Bank",
     "company": "JobsDB HK - Business Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91819397",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3730,14 +3730,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620288+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Business Support Analyst, SEA and APAC",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819430",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3751,14 +3751,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620171+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Sr. Treasury Analyst",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91818303",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3772,14 +3772,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620147+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "English Audio Annotation Analyst - Singapore",
     "company": "JobStreet SG - Business Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819379",
-    "score": 47,
+    "score": 55,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -3793,14 +3793,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620035+00:00",
     "original_score": 55,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Graduate Trainee Programme",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91817296",
-    "score": 46,
+    "score": 54,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3814,14 +3814,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354523+00:00",
     "original_score": 54,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Senior Associate – Advisory Services - Governance, Risk and Internal Audit",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816219",
-    "score": 46,
+    "score": 54,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3835,14 +3835,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354498+00:00",
     "original_score": 54,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Graduate Trainee (Application Stream)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91728348",
-    "score": 46,
+    "score": 54,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3856,14 +3856,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354445+00:00",
     "original_score": 54,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Graduate Trainee (Infrastructure Stream)",
     "company": "",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91728551",
-    "score": 46,
+    "score": 54,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3877,14 +3877,14 @@
     "last_seen_at": "2026-04-29T16:39:41.354419+00:00",
     "original_score": 54,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "IT Operations Specialist",
     "company": "JobsDB HK - Business Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91818383",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3898,14 +3898,14 @@
     "last_seen_at": "2026-04-29T14:13:30.621017+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Compliance & Risk Management Officer",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91819463",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3919,14 +3919,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620991+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Platform Quality Specialist",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91817350",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3940,14 +3940,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620965+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Legal Counsel, Banking & Employment (Legal & Compliance Department)",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816867",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3961,14 +3961,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620943+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Credit Policy & SOP Specialist",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91813997",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -3982,14 +3982,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620916+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "合規主任/監察主任",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91808978",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4003,14 +4003,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620890+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Data Scientist",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91808314",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4024,14 +4024,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620862+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Risk Management Specialist",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91804761",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4045,14 +4045,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620834+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Assistant - Corporate Compliance 公司合規",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91804725",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4066,14 +4066,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620777+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Compliance Specialist - FCC Surveillance",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91811422",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4087,14 +4087,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620643+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Anti Bribery Compliance Specialist - Top US tech firm",
     "company": "JobsDB HK - Compliance Risk Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91802037",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4108,14 +4108,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620541+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Executive, Risk & Compliance",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91819217",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4129,14 +4129,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620515+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Risk Management & Compliance Executive",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91809834",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4150,14 +4150,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620489+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Operations Executive, Securities Transfers (1 yr Contract | Local Bank) DT",
     "company": "JobStreet SG - Compliance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91806007",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4171,14 +4171,14 @@
     "last_seen_at": "2026-04-29T14:13:30.620459+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Billing Operations Executive (6months) | Up to $4000 | Paya Lebar #5252",
     "company": "JobStreet SG - Finance Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91815151",
-    "score": 45,
+    "score": 53,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4192,14 +4192,14 @@
     "last_seen_at": "2026-04-29T13:26:00.606261+00:00",
     "original_score": 53,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Human Resources Associate (1‑year contract, subject to renewal)",
     "company": "JobsDB HK - Graduate Analyst recent",
     "location": "Hong Kong",
     "url": "https://hk.jobsdb.com/job/91816678",
-    "score": 44,
+    "score": 52,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobsDB HK",
@@ -4213,14 +4213,14 @@
     "last_seen_at": "2026-04-29T14:13:30.621119+00:00",
     "original_score": 52,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Sales Management Associate (Wealth Management)",
     "company": "JobStreet SG - Management Trainee recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91808533",
-    "score": 44,
+    "score": 52,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4234,7 +4234,7 @@
     "last_seen_at": "2026-04-29T14:13:30.621041+00:00",
     "original_score": 52,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Company name is missing or looks like a source label."
+    "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Consultant Trainee/ Asset Management Consultant (Fresh Graduates...",
@@ -4257,14 +4257,14 @@
     "ai_reason": "Gemini error: ClientError",
     "original_score": 9,
     "company_quality_decision": "review",
-    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Company name is missing or looks like a source label."
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Lead Generation Associate (Entry-level, Fresh Grads Welcome!)",
     "company": "JobStreet SG - Graduate Analyst recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91809422",
-    "score": 0,
+    "score": 6,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4278,14 +4278,14 @@
     "last_seen_at": "2026-04-29T14:13:30.621091+00:00",
     "original_score": 6,
     "company_quality_decision": "exclude",
-    "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched.; Company name is missing or looks like a source label."
+    "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched.; Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Associate Recruiter [1-1 Coaching Provided | Uncapped Commission] RRKC",
     "company": "JobStreet SG - Management Trainee recent",
     "location": "Singapore",
     "url": "https://sg.jobstreet.com/job/91814891",
-    "score": 0,
+    "score": 6,
     "recommendation": "Maybe",
     "priority": "Medium",
     "source": "JobStreet SG",
@@ -4299,7 +4299,7 @@
     "last_seen_at": "2026-04-29T14:13:30.621065+00:00",
     "original_score": 6,
     "company_quality_decision": "exclude",
-    "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched.; Company name is missing or looks like a source label."
+    "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched.; Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
     "title": "Analyst, Business Development",
@@ -4320,6 +4320,6 @@
     "last_seen_at": "2026-04-29T13:26:00.605485+00:00",
     "original_score": 0,
     "company_quality_decision": "review",
-    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Company name is missing or looks like a source label."
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   }
 ]
