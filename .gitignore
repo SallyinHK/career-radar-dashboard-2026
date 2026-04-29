@@ -1,0 +1,12 @@
+.env
+profile.md
+jobs.db
+*.db
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+scheduler.log
+sources_before_scheduler.yaml

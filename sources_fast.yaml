@@ -1,0 +1,121 @@
+sources:
+- name: JobsDB HK - Graduate Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Hong Kong
+  url: https://hk.jobsdb.com/graduate-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobsDB HK - Finance Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Hong Kong
+  url: https://hk.jobsdb.com/finance-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobsDB HK - Consulting Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Hong Kong
+  url: https://hk.jobsdb.com/consulting-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobsDB HK - Compliance Risk Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Hong Kong
+  url: https://hk.jobsdb.com/compliance-risk-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobsDB HK - Business Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Hong Kong
+  url: https://hk.jobsdb.com/business-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobStreet SG - Graduate Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Singapore
+  url: https://sg.jobstreet.com/graduate-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobStreet SG - Finance Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Singapore
+  url: https://sg.jobstreet.com/finance-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobStreet SG - Consulting Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Singapore
+  url: https://sg.jobstreet.com/consulting-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobStreet SG - Compliance Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Singapore
+  url: https://sg.jobstreet.com/compliance-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: JobStreet SG - Business Analyst recent
+  type: search_page
+  platform: jobsdb
+  location: Singapore
+  url: https://sg.jobstreet.com/business-analyst-jobs?sortmode=ListedDate&daterange=1
+  enabled: true
+- name: LinkedIn HK - Graduate Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Hong Kong
+  url: https://www.linkedin.com/jobs/search/?keywords=Graduate%20Analyst&location=Hong%20Kong&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn HK - Finance Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Hong Kong
+  url: https://www.linkedin.com/jobs/search/?keywords=Finance%20Analyst&location=Hong%20Kong&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn HK - Consulting Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Hong Kong
+  url: https://www.linkedin.com/jobs/search/?keywords=Consulting%20Analyst&location=Hong%20Kong&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn HK - Compliance Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Hong Kong
+  url: https://www.linkedin.com/jobs/search/?keywords=Compliance%20Analyst&location=Hong%20Kong&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn HK - Business Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Hong Kong
+  url: https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Hong%20Kong&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn SG - Graduate Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Singapore
+  url: https://www.linkedin.com/jobs/search/?keywords=Graduate%20Analyst&location=Singapore&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn SG - Finance Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Singapore
+  url: https://www.linkedin.com/jobs/search/?keywords=Finance%20Analyst&location=Singapore&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn SG - Consulting Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Singapore
+  url: https://www.linkedin.com/jobs/search/?keywords=Consulting%20Analyst&location=Singapore&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn SG - Compliance Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Singapore
+  url: https://www.linkedin.com/jobs/search/?keywords=Compliance%20Analyst&location=Singapore&f_TPR=r86400&sortBy=DD
+  enabled: true
+- name: LinkedIn SG - Business Analyst 24h
+  type: search_page
+  platform: linkedin
+  location: Singapore
+  url: https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Singapore&f_TPR=r86400&sortBy=DD
+  enabled: true

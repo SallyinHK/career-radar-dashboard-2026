@@ -1,0 +1,132 @@
+run:
+  interval_hours: 2
+  score_thresholds:
+  jobsdb: 85
+  linkedin: 75
+  official: 70
+  max_jobs_per_source: 50
+  notification_candidate_limit: 20
+  report_limit: 200
+  send_empty_updates: false
+
+filters:
+  target_locations:
+    - Hong Kong
+    - Singapore
+    - Seoul
+    - Korea
+    - Tokyo
+    - Japan
+    - Remote
+  positive_keywords:
+    - graduate
+    - analyst
+    - associate
+    - trainee
+    - finance
+    - consulting
+    - consultant
+    - restructuring
+    - turnaround
+    - risk
+    - compliance
+    - advisory
+    - deals
+    - business analyst
+    - strategy
+    - operations
+    - transformation
+    - digital transformation
+    - fp&a
+    - valuation
+    - payment
+    - fintech
+    - supply chain
+    - management trainee
+
+  exclude_keywords:
+    - insurance sales
+    - wealth management manager
+    - wealth management consultant
+    - financial planning associate
+    - financial planner
+    - insurance agent
+    - relationship manager
+    - sales manager
+    - sales executive
+    - recruitment consultant
+    - administrative assistant
+    - office administration
+    - barista
+    - waiter
+    - retail trainee
+    - marketing officer
+    - digital marketing executive
+    - customer service
+    - senior manager
+    - assistant manager
+    - vice president
+    - avp
+    - vp
+    - head of
+    - director
+
+  negative_keywords:
+    - senior manager
+    - director
+    - head of
+    - vp
+    - vice president
+    - 5+ years
+    - 7+ years
+    - native korean
+    - fluent korean required
+    - business korean required
+    - japanese n1
+    - japanese n2
+    - native japanese
+    - team leader
+    - assistant manager
+    - recruitment consultant
+    - administrative assistant
+        - insurance sales
+    - wealth management manager
+    - wealth management consultant
+    - financial planning associate
+    - financial planner
+    - insurance agent
+    - relationship manager
+    - sales manager
+    - sales executive
+    - sales officer
+    - business development manager
+    - agency business development
+    - recruitment consultant
+    - administrative assistant
+    - office administration
+    - marketing officer
+    - digital marketing
+    - retail trainee
+    - barista
+    - customer service
+    - senior manager
+    - assistant manager
+    - vice president
+    - avp
+    - vp
+    - head of
+    - director
+
+telegram:
+  message_title: "Job Fit Radar"
+  max_roles_per_message: 10
+
+
+ai:
+  # Only call Gemini/OpenAI for jobs with a rough rule score at or above this number.
+  # Keeps API usage/cost low and avoids scoring irrelevant jobs.
+  min_rule_score: 60
+
+
+dashboard:
+  min_region_score: 50
