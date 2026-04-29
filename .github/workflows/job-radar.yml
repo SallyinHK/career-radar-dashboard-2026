@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -64,5 +66,6 @@ jobs:
             echo "No dashboard/state changes to commit."
           else
             git commit -m "Update job radar dashboard"
+            git pull --rebase origin main
             git push
           fi
