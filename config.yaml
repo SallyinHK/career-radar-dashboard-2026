@@ -1,120 +1,112 @@
 run:
-  interval_hours: 2
   score_thresholds:
-  jobsdb: 85
-  linkedin: 75
-  official: 70
+    jobsdb: 80
+    linkedin: 70
+    official: 60
   max_jobs_per_source: 50
   notification_candidate_limit: 30
   report_limit: 200
   send_empty_updates: false
-
+  scan_intervals:
+    fast_hours: 12
+    slow_hours: 36
+    slow_initial_delay_hours: 6
 filters:
   target_locations:
-    - Hong Kong
-    - Singapore
-    - Seoul
-    - Korea
-    - Tokyo
-    - Japan
-    - Remote
+  - Hong Kong
+  - Singapore
+  - Seoul
+  - Korea
+  - Tokyo
+  - Japan
+  - Remote
   positive_keywords:
-    - graduate
-    - analyst
-    - associate
-    - trainee
-    - finance
-    - consulting
-    - consultant
-    - restructuring
-    - turnaround
-    - risk
-    - compliance
-    - advisory
-    - deals
-    - business analyst
-    - strategy
-    - operations
-    - transformation
-    - digital transformation
-    - fp&a
-    - valuation
-    - payment
-    - fintech
-    - supply chain
-    - management trainee
-
+  - graduate
+  - analyst
+  - associate
+  - trainee
+  - finance
+  - consulting
+  - consultant
+  - restructuring
+  - turnaround
+  - risk
+  - compliance
+  - advisory
+  - deals
+  - business analyst
+  - strategy
+  - operations
+  - transformation
+  - digital transformation
+  - fp&a
+  - valuation
+  - payment
+  - fintech
+  - supply chain
+  - management trainee
   exclude_keywords:
-    - insurance sales
-    - wealth management manager
-    - wealth management consultant
-    - insurance agent
-    - sales manager
-    - sales executive
-    - barista
-    - waiter
-    - marketing officer
-    - digital marketing executive
-    - customer service
-    - senior manager
-    - assistant manager
-    - vice president
-    - avp
-    - vp
-    - head of
-    - director
-
+  - insurance sales
+  - wealth management manager
+  - wealth management consultant
+  - insurance agent
+  - sales manager
+  - sales executive
+  - barista
+  - waiter
+  - marketing officer
+  - digital marketing executive
+  - customer service
+  - senior manager
+  - assistant manager
+  - vice president
+  - avp
+  - vp
+  - head of
+  - director
   negative_keywords:
-    - senior manager
-    - director
-    - head of
-    - vp
-    - vice president
-    - 3 years
-    - 4 years
-    - 5 years
-    - 5+ years
-    - 6 years
-    - 7 years
-    - 7+ years
-    - 8 years
-    - 9 years
-    - 10 years
-    - native korean
-    - fluent korean required
-    - business korean required
-    - japanese n1
-    - japanese n2
-    - native japanese
-    - administrative assistant
-        - insurance sales
-    - wealth management manager
-    - wealth management consultant
-    - insurance agent
-    - sales manager
-    - sales executive
-    - sales officer
-    - agency business development
-    - barista
-    - customer service
-    - senior manager
-    - assistant manager
-    - vice president
-    - avp
-    - vp
-    - head of
-    - director
-
+  - senior manager
+  - director
+  - head of
+  - vp
+  - vice president
+  - 3 years
+  - 4 years
+  - 5 years
+  - 5+ years
+  - 6 years
+  - 7 years
+  - 7+ years
+  - 8 years
+  - 9 years
+  - 10 years
+  - native korean
+  - fluent korean required
+  - business korean required
+  - japanese n1
+  - japanese n2
+  - native japanese
+  - administrative assistant - insurance sales
+  - wealth management manager
+  - wealth management consultant
+  - insurance agent
+  - sales manager
+  - sales executive
+  - sales officer
+  - agency business development
+  - barista
+  - customer service
+  - senior manager
+  - assistant manager
+  - vice president
+  - avp
+  - vp
+  - head of
+  - director
 telegram:
-  message_title: "Job Fit Radar"
+  message_title: Job Fit Radar
   max_roles_per_message: 10
-
-
 ai:
-  # Only call Gemini/OpenAI for jobs with a rough rule score at or above this number.
-  # Keeps API usage/cost low and avoids scoring irrelevant jobs.
-  min_rule_score: 60
-
-
+  min_rule_score: 50
 dashboard:
   min_region_score: 50
