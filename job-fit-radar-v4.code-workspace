@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../job-fit-radar-v0"
+		},
+		{
+			"path": "../job-fit-radar-v1"
+		},
+		{
+			"path": "../job-fit-radar-v2"
+		},
+		{
+			"path": "../job-fit-radar-v3"
+		},
+		{
+			"path": "."
+		}
+	]
+}

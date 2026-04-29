@@ -5,7 +5,7 @@ run:
   linkedin: 75
   official: 70
   max_jobs_per_source: 50
-  notification_candidate_limit: 20
+  notification_candidate_limit: 30
   report_limit: 200
   send_empty_updates: false
 
@@ -48,18 +48,11 @@ filters:
     - insurance sales
     - wealth management manager
     - wealth management consultant
-    - financial planning associate
-    - financial planner
     - insurance agent
-    - relationship manager
     - sales manager
     - sales executive
-    - recruitment consultant
-    - administrative assistant
-    - office administration
     - barista
     - waiter
-    - retail trainee
     - marketing officer
     - digital marketing executive
     - customer service
@@ -77,36 +70,31 @@ filters:
     - head of
     - vp
     - vice president
+    - 3 years
+    - 4 years
+    - 5 years
     - 5+ years
+    - 6 years
+    - 7 years
     - 7+ years
+    - 8 years
+    - 9 years
+    - 10 years
     - native korean
     - fluent korean required
     - business korean required
     - japanese n1
     - japanese n2
     - native japanese
-    - team leader
-    - assistant manager
-    - recruitment consultant
     - administrative assistant
         - insurance sales
     - wealth management manager
     - wealth management consultant
-    - financial planning associate
-    - financial planner
     - insurance agent
-    - relationship manager
     - sales manager
     - sales executive
     - sales officer
-    - business development manager
     - agency business development
-    - recruitment consultant
-    - administrative assistant
-    - office administration
-    - marketing officer
-    - digital marketing
-    - retail trainee
     - barista
     - customer service
     - senior manager
