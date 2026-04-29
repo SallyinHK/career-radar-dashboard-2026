@@ -1,16 +1,4 @@
 sources:
-- name: JobsDB HK - Management Trainee recent
-  type: search_page
-  platform: jobsdb
-  location: Hong Kong
-  url: https://hk.jobsdb.com/management-trainee-jobs?sortmode=ListedDate&daterange=1
-  enabled: true
-- name: JobStreet SG - Management Trainee recent
-  type: search_page
-  platform: jobsdb
-  location: Singapore
-  url: https://sg.jobstreet.com/management-trainee-jobs?sortmode=ListedDate&daterange=1
-  enabled: true
 - name: LinkedIn SG - Management Trainee 24h
   type: search_page
   platform: linkedin
