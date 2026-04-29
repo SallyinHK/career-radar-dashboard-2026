@@ -88,8 +88,50 @@ def load_config() -> dict:
 
 
 def threshold() -> int:
+    """Broad minimum threshold used for initial database query.
+
+    If source-specific thresholds exist, use the lowest value so we do not
+    accidentally discard jobs before source-level filtering.
+    """
     config = load_config()
-    return int(config.get("score_threshold", 80))
+    thresholds = config.get("run", {}).get("score_thresholds", {})
+
+    if isinstance(thresholds, dict) and thresholds:
+        return int(min(thresholds.values()))
+
+    return int(config.get("run", {}).get("score_threshold", config.get("score_threshold", 80)))
+
+
+def threshold_for_item(item) -> int:
+    """Return source-specific threshold for a sqlite row or public job dict."""
+    config = load_config()
+    thresholds = config.get("run", {}).get("score_thresholds", {}) or {}
+
+    default = int(config.get("run", {}).get("score_threshold", config.get("score_threshold", 80)))
+
+    url = ""
+    source = ""
+
+    try:
+        if isinstance(item, dict):
+            url = str(item.get("url", "") or "").lower()
+            source = str(item.get("source", "") or "").lower()
+        elif hasattr(item, "keys"):
+            url = str(item["url"] or "").lower()
+            source = str(source_label(item) or "").lower()
+    except Exception:
+        pass
+
+    if "jobsdb.com" in url or "jobstreet.com" in url or "jobsdb" in source or "jobstreet" in source:
+        return int(thresholds.get("jobsdb", default))
+
+    if "linkedin.com" in url or "linkedin" in source:
+        return int(thresholds.get("linkedin", default))
+
+    if any(x in url for x in ["deloitte", "ey.com", "kpmg", "pwc", "bnpparibas", "hotjob"]):
+        return int(thresholds.get("official", default))
+
+    return default
 
 
 def safe_loads(value):
@@ -459,10 +501,11 @@ def run_one_scan(label: str, source_file: str, state: dict):
     scan_once(send=False)
 
     min_score = threshold()
-    current_rows = get_rows(min_score=min_score, limit=300)
+    raw_rows = get_rows(min_score=min_score, limit=300)
+    current_rows = [r for r in raw_rows if int(r['score'] or 0) >= threshold_for_item(r)]
 
     merged_jobs = merge_recent_jobs(current_rows)
-    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= min_score]
+    dashboard_rows = [x for x in merged_jobs if int(x.get("score", 0)) >= threshold_for_item(x)]
     dashboard_rows = add_region_representatives(dashboard_rows)
 
     write_public_dashboard(dashboard_rows)
@@ -516,7 +559,7 @@ def main():
         print("Refreshing dashboard from existing cloud_jobs.json.")
         jobs = load_json(PUBLIC_JOBS_PATH, [])
         min_score = threshold()
-        rows = [x for x in jobs if int(x.get("score", 0)) >= min_score]
+        rows = [x for x in jobs if int(x.get("score", 0)) >= threshold_for_item(x)]
         rows = add_region_representatives(rows)
 
         # Do not overwrite a non-empty dashboard with 0 roles unless this is truly intentional.
