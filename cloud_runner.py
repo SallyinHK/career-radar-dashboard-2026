@@ -299,7 +299,7 @@ def write_public_dashboard(rows: list[dict]):
 
         for r in items:
             title = esc(r.get("title"))
-            company = esc(r.get("company"))
+            company = esc(r.get("company") or "Company not captured")
             location = esc(r.get("location"))
             score = esc(r.get("score"))
             url = esc(r.get("url"))
