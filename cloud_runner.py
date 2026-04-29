@@ -17,6 +17,7 @@ from jobfit.classify import classify_job_type, short_job_type, source_label
 from jobfit.gemini_screen import clean_company, screen_jobs_with_gemini, should_hide_job
 from jobfit.company_quality import apply_company_quality, should_hide_by_company_quality
 from jobfit.hard_filters import is_hard_excluded
+from jobfit.detail_enrich import enrich_job_descriptions
 from main import scan_once
 
 load_dotenv()
@@ -571,6 +572,13 @@ def run_one_scan(label: str, source_file: str, state: dict):
     config = load_config()
 
     # Company quality rules run before Gemini.
+    merged_jobs = apply_company_quality(merged_jobs, config)
+
+    # Enrich high-score candidates by opening detail pages.
+    # This is needed because LinkedIn search cards often do not include requirements like "5-8 years".
+    merged_jobs = enrich_job_descriptions(merged_jobs, config)
+
+    # Re-apply company quality after description enrichment.
     merged_jobs = apply_company_quality(merged_jobs, config)
 
     # Gemini is only used as a small secondary screening layer.

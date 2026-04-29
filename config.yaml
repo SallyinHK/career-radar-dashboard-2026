@@ -198,3 +198,8 @@ company_quality:
   - life insurance
   - agency
   - work from home
+detail_enrichment:
+  enabled: true
+  min_score: 75
+  limit: 30
+  delay_seconds: 1.5
