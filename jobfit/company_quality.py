@@ -14,15 +14,42 @@ def _text(job: dict[str, Any]) -> str:
 
 
 def _contains_any(text: str, terms: list[str]) -> bool:
-    return any(t.lower() in text for t in terms)
+    return any(str(t).lower() in text for t in terms if str(t).strip())
+
+
+def _matches_company_blacklist(company: str, title: str, blacklist: list[str]) -> str:
+    haystack = f"{company} {title}".lower()
+
+    for raw in blacklist:
+        term = str(raw or "").strip()
+        if not term:
+            continue
+
+        t = term.lower()
+
+        if len(t) <= 3:
+            pattern = r"(^|[^a-z0-9])" + re.escape(t) + r"([^a-z0-9]|$)"
+            if re.search(pattern, haystack):
+                return term
+        else:
+            if t in haystack:
+                return term
+
+    return ""
 
 
 def apply_company_quality_one(job: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     quality = config.get("company_quality", {}) or {}
+    filters = config.get("filters", {}) or {}
 
     preferred_companies = quality.get("preferred_companies", []) or []
     strong_exclude_terms = quality.get("strong_exclude_terms", []) or []
     risk_terms = quality.get("risk_terms", []) or []
+
+    blacklist_companies = []
+    blacklist_companies.extend(filters.get("blacklist_companies", []) or [])
+    blacklist_companies.extend(quality.get("blacklist_companies", []) or [])
+
     weak_company_penalty = int(quality.get("weak_company_penalty", 8))
     preferred_company_bonus = int(quality.get("preferred_company_bonus", 5))
     risk_penalty = int(quality.get("risk_penalty", 20))
@@ -34,34 +61,39 @@ def apply_company_quality_one(job: dict[str, Any], config: dict[str, Any]) -> di
     title = str(job.get("title", "") or "").strip()
     source = str(job.get("source", "") or "").strip()
     url = str(job.get("url", "") or "").strip()
+
     source_url_text = f"{source} {url}".lower()
     is_jobsdb_or_jobstreet = "jobsdb" in source_url_text or "jobstreet" in source_url_text
-    text = _text(job)
 
+    text = _text(job)
     reasons = []
     decision = "keep"
 
-    # 1. Hard exclude obvious sales / insurance / wealth traps.
+    blacklist_hit = _matches_company_blacklist(company, title, blacklist_companies)
+    if blacklist_hit:
+        job["original_score"] = original_score
+        job["score"] = 0
+        job["company_quality_decision"] = "exclude"
+        job["company_quality_reason"] = f"Company is blacklisted: {blacklist_hit}."
+        return job
+
     if _contains_any(text, strong_exclude_terms):
         decision = "exclude"
         adjusted = min(adjusted, 30)
         reasons.append("Strong sales / insurance / wealth-management risk keyword matched.")
 
-    # 2. Risk terms downgrade, unless already excluded.
     elif _contains_any(text, risk_terms):
         decision = "review"
         adjusted -= risk_penalty
         reasons.append("Potential sales-heavy or low-analytical-content signal matched.")
 
-    # 3. Preferred company bonus.
     company_lower = company.lower()
     for c in preferred_companies:
-        if c.lower() in company_lower:
+        if str(c).lower() in company_lower:
             adjusted += preferred_company_bonus
             reasons.append(f"Preferred company matched: {c}.")
             break
 
-    # 4. Bad / missing company capture.
     fake_company_patterns = [
         "jobsdb hk",
         "jobstreet sg",
@@ -77,7 +109,6 @@ def apply_company_quality_one(job: dict[str, Any], config: dict[str, Any]) -> di
             adjusted -= weak_company_penalty
             reasons.append("Company name is missing or looks like a source label.")
 
-    # 5. Extra downgrade for vague consultant titles.
     vague_consultant_patterns = [
         "personal consultant",
         "financial services consultant",

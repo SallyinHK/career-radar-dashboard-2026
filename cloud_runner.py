@@ -347,7 +347,47 @@ def region_label(bucket: str) -> str:
     }.get(bucket, "Other")
 
 
+
+def platform_bucket(row) -> str:
+    text = " ".join([
+        str(row.get("source", "") or ""),
+        str(row.get("url", "") or ""),
+        str(row.get("company", "") or ""),
+    ]).lower()
+
+    if "linkedin" in text or "linkedin.com" in text:
+        return "linkedin"
+    if "jobsdb" in text or "jobsdb.com" in text:
+        return "jobsdb"
+    if "jobstreet" in text or "jobstreet.com" in text:
+        return "jobstreet"
+    return "official"
+
+
+def platform_label(bucket: str) -> str:
+    return {
+        "linkedin": "LinkedIn",
+        "jobsdb": "JobsDB",
+        "jobstreet": "JobStreet",
+        "official": "Official",
+    }.get(bucket, "Official")
+
+
+def dashboard_job_type(row) -> str:
+    """Official Portal is a source/platform, not a job type."""
+    typ = str(row.get("job_type", "") or "").strip()
+    title = str(row.get("title", "") or "").lower()
+
+    if typ.lower() == "official portal":
+        if any(x in title for x in ["intern", "internship", "summer", "temporary", "part-time", "contract"]):
+            return "Internship / Temporary"
+        return "Full-time / Graduate"
+
+    return typ or "Other / Review"
+
+
 def write_public_dashboard(rows: list[dict]):
+    rows = [dict(r, job_type=dashboard_job_type(r)) for r in rows]
     DOCS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     sections = {
@@ -383,6 +423,8 @@ def write_public_dashboard(rows: list[dict]):
             last_seen = esc(str(r.get("last_seen_at", ""))[:16].replace("T", " "))
             region = region_bucket(r)
             region_text = esc(region_label(region))
+            platform = platform_bucket(r)
+            platform_text = esc(platform_label(platform))
 
             reasons = r.get("reasons") or []
             if reasons:
@@ -391,12 +433,13 @@ def write_public_dashboard(rows: list[dict]):
                 reasons_html = "<li>Open the application link to review role details.</li>"
 
             body.append(f"""
-            <article class="card" data-region="{region}">
+            <article class="card" data-region="{region}" data-platform="{platform}">
               <div class="meta">
                 <span>#{idx}</span>
                 <span class="pill score">{score}/100</span>
                 <span class="pill">{src}</span>
                 <span class="pill">{typ}</span>\n                <span class="pill region-pill">{region_text}</span>
+                <span class="pill platform-pill">{platform_text}</span>
               </div>
 
               <h3>{title}</h3>
@@ -550,6 +593,58 @@ def write_public_dashboard(rows: list[dict]):
       background: #f1f5f9;
       color: #334155;
     }}
+    .card.viewed-card {{
+      opacity: 0.62;
+      filter: grayscale(0.15);
+    }}
+    .card.viewed-card h3 {{
+      color: #64748b;
+    }}
+    .viewed-badge {{
+      background: #e2e8f0;
+      color: #475569;
+    }}
+    a.viewed-link {{
+      background: #64748b !important;
+      color: white !important;
+    }}
+    .viewed-note {{
+      margin-top: -2px;
+      font-size: 13px;
+    }}
+    .reset-viewed-btn {{
+      border: none;
+      background: transparent;
+      color: #2563eb;
+      font-weight: 800;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 6px;
+    }}
+    .platform-filter {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 6px 0 8px;
+    }}
+    .platform-filter button {{
+      border: 1px solid #d8deea;
+      background: white;
+      color: #172033;
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-weight: 800;
+      cursor: pointer;
+    }}
+    .platform-filter button.active {{
+      background: #0f172a;
+      color: white;
+      border-color: #0f172a;
+    }}
+    .platform-pill {{
+      background: #fff7ed;
+      color: #9a3412;
+    }}
   </style>
 </head>
 <body>
@@ -558,27 +653,54 @@ def write_public_dashboard(rows: list[dict]):
     <p class="sub">Generated at {generated}. Showing {total} role(s) from the last {RETENTION_DAYS} days. Public-safe version: no CV or profile details included.</p>
     <nav class="nav">{''.join(nav)}</nav>
     <div class="region-filter" aria-label="Region filter">
-      <button class="active" data-region="all" onclick="filterRegion('all')">All</button>
-      <button data-region="hk" onclick="filterRegion('hk')">Hong Kong</button>
-      <button data-region="sg" onclick="filterRegion('sg')">Singapore</button>
-      <button data-region="krjp" onclick="filterRegion('krjp')">Korea / Japan</button>
-      <button data-region="other" onclick="filterRegion('other')">Other locations</button>
+      <button class="active" data-region="all" onclick="setRegionFilter('all')">All</button>
+      <button data-region="hk" onclick="setRegionFilter('hk')">Hong Kong</button>
+      <button data-region="sg" onclick="setRegionFilter('sg')">Singapore</button>
+      <button data-region="krjp" onclick="setRegionFilter('krjp')">Korea / Japan</button>
+      <button data-region="other" onclick="setRegionFilter('other')">Other locations</button>
     </div>
-    <p class="sub filter-count">Visible after filter: <span id="visible-count">{total}</span> role(s).</p>\n    <p class="sub filter-empty" id="filter-empty" style="display:none;">No roles in this region filter.</p>
+    <div class="platform-filter" aria-label="Platform filter">
+      <button class="active" data-platform="all" onclick="setPlatformFilter('all')">All platforms</button>
+      <button data-platform="linkedin" onclick="setPlatformFilter('linkedin')">LinkedIn</button>
+      <button data-platform="jobsdb" onclick="setPlatformFilter('jobsdb')">JobsDB</button>
+      <button data-platform="jobstreet" onclick="setPlatformFilter('jobstreet')">JobStreet</button>
+      <button data-platform="official" onclick="setPlatformFilter('official')">Official</button>
+    </div>
+    <p class="sub filter-count">Visible after filter: <span id="visible-count">{total}</span> role(s).</p>\n    <p class="sub viewed-note">Viewed status is saved in this browser only. <button class="reset-viewed-btn" onclick="resetViewedJobs()">Reset viewed</button></p>\n    <p class="sub filter-empty" id="filter-empty" style="display:none;">No roles in this region filter.</p>
     {''.join(body)}
   </main>
   <script>
-    function filterRegion(region) {{
+    let currentRegionFilter = 'all';
+    let currentPlatformFilter = 'all';
+
+    function setRegionFilter(region) {{
+      currentRegionFilter = region;
+      applyDashboardFilters();
+    }}
+
+    function setPlatformFilter(platform) {{
+      currentPlatformFilter = platform;
+      applyDashboardFilters();
+    }}
+
+    function applyDashboardFilters() {{
       let visible = 0;
 
       document.querySelectorAll('.card').forEach(card => {{
-        const show = region === 'all' || card.dataset.region === region;
+        const regionOk = currentRegionFilter === 'all' || card.dataset.region === currentRegionFilter;
+        const platformOk = currentPlatformFilter === 'all' || card.dataset.platform === currentPlatformFilter;
+        const show = regionOk && platformOk;
+
         card.style.display = show ? '' : 'none';
         if (show) visible += 1;
       }});
 
       document.querySelectorAll('.region-filter button').forEach(btn => {{
-        btn.classList.toggle('active', btn.dataset.region === region);
+        btn.classList.toggle('active', btn.dataset.region === currentRegionFilter);
+      }});
+
+      document.querySelectorAll('.platform-filter button').forEach(btn => {{
+        btn.classList.toggle('active', btn.dataset.platform === currentPlatformFilter);
       }});
 
       const count = document.getElementById('visible-count');
@@ -588,6 +710,10 @@ def write_public_dashboard(rows: list[dict]):
       if (empty) empty.style.display = visible === 0 ? '' : 'none';
 
       updateSectionCounts();
+    }}
+
+    function filterRegion(region) {{
+      setRegionFilter(region);
     }}
 
     function updateSectionCounts() {{
@@ -620,8 +746,82 @@ def write_public_dashboard(rows: list[dict]):
     }}
 
     document.addEventListener('DOMContentLoaded', () => {{
-      filterRegion('all');
+      applyDashboardFilters();
     }});
+</script>
+  <script id="viewed-job-store">
+    (function() {{
+      const KEY = "jobFitRadarViewedUrls";
+
+      function loadViewed() {{
+        try {{
+          return new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+        }} catch (e) {{
+          return new Set();
+        }}
+      }}
+
+      function saveViewed(viewed) {{
+        localStorage.setItem(KEY, JSON.stringify(Array.from(viewed)));
+      }}
+
+      function markCard(link) {{
+        const card = link.closest(".card");
+        if (!card) return;
+
+        card.classList.add("viewed-card");
+        link.classList.add("viewed-link");
+        link.textContent = "Viewed · Open link";
+
+        if (!card.querySelector(".viewed-badge")) {{
+          const badge = document.createElement("span");
+          badge.className = "pill viewed-badge";
+          badge.textContent = "Viewed";
+
+          const firstPill = card.querySelector(".pill");
+          if (firstPill && firstPill.parentElement) {{
+            firstPill.parentElement.appendChild(badge);
+          }} else {{
+            card.prepend(badge);
+          }}
+        }}
+      }}
+
+      function applyViewedState() {{
+        const viewed = loadViewed();
+
+        document.querySelectorAll("a").forEach(link => {{
+          const label = (link.textContent || "").trim().toLowerCase();
+          if (!label.includes("open application link") && !label.includes("viewed · open link")) return;
+
+          const url = link.href;
+          if (!url) return;
+
+          if (viewed.has(url)) {{
+            markCard(link);
+          }}
+
+          link.addEventListener("click", () => {{
+            const current = loadViewed();
+            current.add(url);
+            saveViewed(current);
+            markCard(link);
+          }}, {{ capture: true }});
+        }});
+      }}
+
+      window.resetViewedJobs = function() {{
+        localStorage.removeItem(KEY);
+        document.querySelectorAll(".viewed-card").forEach(card => card.classList.remove("viewed-card"));
+        document.querySelectorAll(".viewed-link").forEach(link => {{
+          link.classList.remove("viewed-link");
+          link.textContent = "Open application link";
+        }});
+        document.querySelectorAll(".viewed-badge").forEach(badge => badge.remove());
+      }};
+
+      document.addEventListener("DOMContentLoaded", applyViewedState);
+    }})();
   </script>
 </body>
 </html>
