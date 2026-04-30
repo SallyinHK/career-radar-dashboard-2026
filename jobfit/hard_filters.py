@@ -51,9 +51,52 @@ def required_years_exceeds(job: dict[str, Any], config: dict[str, Any]) -> bool:
     return False
 
 
+
+def company_blacklisted(job: dict[str, Any], config: dict[str, Any]) -> bool:
+    text = _job_text(job)
+    companies = config.get("filters", {}).get("blacklist_companies", []) or []
+    return any(str(c).lower() in text for c in companies)
+
+
+def tech_role_mismatch(job: dict[str, Any], config: dict[str, Any]) -> bool:
+    filters = config.get("filters", {}) or {}
+
+    title = str(job.get("title", "") or "").lower()
+    text = _job_text(job)
+
+    title_terms = filters.get("tech_mismatch_title_keywords", []) or []
+    erp_terms = filters.get("erp_implementation_keywords", []) or []
+    backend_stack_terms = filters.get("backend_stack_keywords", []) or []
+
+    # 1. Title-level hard mismatch.
+    if any(str(term).lower() in title for term in title_terms):
+        return True
+
+    # 2. Oracle / ERP / implementation-heavy roles.
+    if any(str(term).lower() in text for term in erp_terms):
+        # Avoid excluding normal finance analyst roles that merely mention SAP/Oracle as a tool.
+        # This focuses on implementation / consultant / engineer roles.
+        if any(x in title for x in ["consultant", "engineer", "implementation", "oracle", "erp", "ebs", "fusion"]):
+            return True
+        if "oracle ebs" in text or "oracle fusion" in text or "ebs/fusion" in text:
+            return True
+
+    # 3. Traditional Java backend stack.
+    # Require multiple backend-stack hits to avoid false positives such as "Spring internship".
+    stack_hits = [term for term in backend_stack_terms if str(term).lower() in text]
+    if len(stack_hits) >= 3 and any(x in title for x in ["programmer", "developer", "engineer", "software", "application"]):
+        return True
+
+    return False
+
+
 def hard_exclude_reason(job: dict[str, Any], config: dict[str, Any]) -> str:
+    if company_blacklisted(job, config):
+        return "Company is on the blacklist."
     if required_years_exceeds(job, config):
         return "Role requires more years of experience than allowed."
+    if tech_role_mismatch(job, config):
+        return "Role is a technical developer / ERP implementation mismatch."
     return ""
 
 

@@ -318,6 +318,35 @@ def ensure_jobsdb_source_picks(rows: list[dict], all_jobs: list[dict], config: d
     rows.sort(key=lambda x: int(x.get("score", x.get("original_score", 0)) or 0), reverse=True)
     return rows
 
+
+def region_bucket(row) -> str:
+    text = " ".join([
+        str(row.get("location", "") or ""),
+        str(row.get("source", "") or ""),
+        str(row.get("url", "") or ""),
+    ]).lower()
+
+    if "hong kong" in text or "hong kong sar" in text or "hk.jobsdb" in text:
+        return "hk"
+
+    if "singapore" in text or "sg.jobstreet" in text:
+        return "sg"
+
+    if "korea" in text or "seoul" in text or "japan" in text or "tokyo" in text:
+        return "krjp"
+
+    return "other"
+
+
+def region_label(bucket: str) -> str:
+    return {
+        "hk": "Hong Kong",
+        "sg": "Singapore",
+        "krjp": "Korea / Japan",
+        "other": "Other",
+    }.get(bucket, "Other")
+
+
 def write_public_dashboard(rows: list[dict]):
     DOCS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -352,6 +381,8 @@ def write_public_dashboard(rows: list[dict]):
             src = esc(r.get("source"))
             typ = esc(r.get("job_type"))
             last_seen = esc(str(r.get("last_seen_at", ""))[:16].replace("T", " "))
+            region = region_bucket(r)
+            region_text = esc(region_label(region))
 
             reasons = r.get("reasons") or []
             if reasons:
@@ -360,12 +391,12 @@ def write_public_dashboard(rows: list[dict]):
                 reasons_html = "<li>Open the application link to review role details.</li>"
 
             body.append(f"""
-            <article class="card">
+            <article class="card" data-region="{region}">
               <div class="meta">
                 <span>#{idx}</span>
                 <span class="pill score">{score}/100</span>
                 <span class="pill">{src}</span>
-                <span class="pill">{typ}</span>
+                <span class="pill">{typ}</span>\n                <span class="pill region-pill">{region_text}</span>
               </div>
 
               <h3>{title}</h3>
@@ -491,6 +522,34 @@ def write_public_dashboard(rows: list[dict]):
       border-radius: 11px;
       font-weight: 800;
     }}
+    .region-filter {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 4px 0 8px;
+    }}
+    .region-filter button {{
+      border: 1px solid #d8deea;
+      background: white;
+      color: #172033;
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-weight: 800;
+      cursor: pointer;
+    }}
+    .region-filter button.active {{
+      background: #111827;
+      color: white;
+      border-color: #111827;
+    }}
+    .filter-count {{
+      margin-top: 4px;
+      font-size: 14px;
+    }}
+    .region-pill {{
+      background: #f1f5f9;
+      color: #334155;
+    }}
   </style>
 </head>
 <body>
@@ -498,8 +557,72 @@ def write_public_dashboard(rows: list[dict]):
     <h1>Job Fit Radar Shortlist</h1>
     <p class="sub">Generated at {generated}. Showing {total} role(s) from the last {RETENTION_DAYS} days. Public-safe version: no CV or profile details included.</p>
     <nav class="nav">{''.join(nav)}</nav>
+    <div class="region-filter" aria-label="Region filter">
+      <button class="active" data-region="all" onclick="filterRegion('all')">All</button>
+      <button data-region="hk" onclick="filterRegion('hk')">Hong Kong</button>
+      <button data-region="sg" onclick="filterRegion('sg')">Singapore</button>
+      <button data-region="krjp" onclick="filterRegion('krjp')">Korea / Japan</button>
+      <button data-region="other" onclick="filterRegion('other')">Other locations</button>
+    </div>
+    <p class="sub filter-count">Visible after filter: <span id="visible-count">{total}</span> role(s).</p>\n    <p class="sub filter-empty" id="filter-empty" style="display:none;">No roles in this region filter.</p>
     {''.join(body)}
   </main>
+  <script>
+    function filterRegion(region) {{
+      let visible = 0;
+
+      document.querySelectorAll('.card').forEach(card => {{
+        const show = region === 'all' || card.dataset.region === region;
+        card.style.display = show ? '' : 'none';
+        if (show) visible += 1;
+      }});
+
+      document.querySelectorAll('.region-filter button').forEach(btn => {{
+        btn.classList.toggle('active', btn.dataset.region === region);
+      }});
+
+      const count = document.getElementById('visible-count');
+      if (count) count.textContent = visible;
+
+      const empty = document.getElementById('filter-empty');
+      if (empty) empty.style.display = visible === 0 ? '' : 'none';
+
+      updateSectionCounts();
+    }}
+
+    function updateSectionCounts() {{
+      const headings = Array.from(document.querySelectorAll('main h2'));
+
+      headings.forEach(h2 => {{
+        let node = h2.nextElementSibling;
+        const cards = [];
+
+        while (node && node.tagName !== 'H2') {{
+          if (node.classList && node.classList.contains('card')) {{
+            cards.push(node);
+          }}
+          if (node.querySelectorAll) {{
+            cards.push(...Array.from(node.querySelectorAll('.card')));
+          }}
+          node = node.nextElementSibling;
+        }}
+
+        if (cards.length === 0) return;
+
+        const visibleCards = cards.filter(card => card.style.display !== 'none').length;
+        h2.style.display = visibleCards > 0 ? '' : 'none';
+
+        const countSpan = h2.querySelector('span');
+        if (countSpan) {{
+          countSpan.textContent = `${{visibleCards}} role(s)`;
+        }}
+      }});
+    }}
+
+    document.addEventListener('DOMContentLoaded', () => {{
+      filterRegion('all');
+    }});
+  </script>
 </body>
 </html>
 """

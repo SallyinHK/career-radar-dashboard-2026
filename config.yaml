@@ -115,6 +115,43 @@ filters:
   - director
   - Singaporean
   max_required_years: 2
+  blacklist_companies:
+  - Acton Consulting
+  - Acton Consulting Limited
+  tech_mismatch_title_keywords:
+  - analyst programmer
+  - application developer
+  - back-end developer
+  - backend developer
+  - cloud engineer
+  - devops engineer
+  - infrastructure engineer
+  - java developer
+  - oracle cloud engineer
+  - programmer
+  - software developer
+  - software engineer
+  - system engineer
+  - systems engineer
+  erp_implementation_keywords:
+  - ebs/fusion
+  - erp implementation
+  - functional consultant
+  - implementation consultant
+  - oracle certification
+  - oracle cloud consultant
+  - oracle cloud engineer
+  - oracle ebs
+  - oracle fusion
+  - system implementation
+  - technical consultant
+  backend_stack_keywords:
+  - hibernate
+  - j2ee
+  - java
+  - servlets
+  - spring
+  - struts
 telegram:
   message_title: Job Fit Radar
   max_roles_per_message: 10
