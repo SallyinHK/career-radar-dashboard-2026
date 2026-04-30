@@ -116,8 +116,37 @@ filters:
   - Singaporean
   max_required_years: 2
   blacklist_companies:
+  - AIA
+  - AIA Hong Kong
+  - AIA Hong Kong and Macau
+  - AIA International
+  - AIA International Limited
+  - AXA
+  - AXA Hong Kong
   - Acton Consulting
   - Acton Consulting Limited
+  - Allianz
+  - BOC Life
+  - BOCG Insurance
+  - Blue Cross
+  - China Life
+  - China Life Insurance
+  - Chubb Life
+  - Cigna
+  - FWD
+  - FWD Hong Kong
+  - Generali
+  - Great Eastern
+  - Great Eastern Financial Advisers
+  - Manulife
+  - Manulife Hong Kong
+  - Prudential
+  - Prudential Hong Kong
+  - QBE
+  - Sun Life
+  - Sun Life Hong Kong
+  - YF Life
+  - Zurich Insurance
   tech_mismatch_title_keywords:
   - analyst programmer
   - application developer
@@ -237,6 +266,6 @@ company_quality:
   - work from home
 detail_enrichment:
   enabled: true
-  min_score: 75
-  limit: 30
-  delay_seconds: 1.5
+  min_score: 60
+  limit: 80
+  delay_seconds: 1.2
