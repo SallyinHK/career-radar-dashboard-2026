@@ -1,5 +1,49 @@
 [
   {
+    "title": "Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore",
+    "company": "EY",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/associate-consultant-global-compliance-and-reporting-application-development-tax-singapore-at-ey-4385035901",
+    "score": 100,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, consultant, compliance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
+    ],
+    "description": "Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore EY Singapore, Singapore Actively Hiring 10 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583475+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583478+00:00",
+    "original_score": 95,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
+    "title": "FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong",
+    "company": "EY",
+    "location": "Hong Kong, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/fso-risk-consulting-nfr-financial-crime-compliance-staff-associate-hong-kong-at-ey-4385046521",
+    "score": 100,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, consulting, risk, compliance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
+    ],
+    "description": "FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong EY Hong Kong, Hong Kong SAR Actively Hiring 10 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583428+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583441+00:00",
+    "original_score": 99,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
     "title": "Finance and Business Management Analyst",
     "company": "JPMorganChase",
     "location": "Hong Kong SAR",
@@ -317,28 +361,6 @@
     "detail_enrich_status": "ok"
   },
   {
-    "title": "FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong",
-    "company": "EY",
-    "location": "Hong Kong, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/fso-risk-consulting-nfr-financial-crime-compliance-staff-associate-hong-kong-at-ey-4385046521",
-    "score": 100,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: associate, consulting, risk, compliance",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
-    ],
-    "description": "FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong FSO - Risk Consulting - NFR (Financial Crime Compliance) - Staff Associate - Hong Kong EY Hong Kong, Hong Kong SAR Actively Hiring 10 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583428+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583441+00:00",
-    "original_score": 99,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
-  },
-  {
     "title": "Finance Analyst, Travel Retail Asia",
     "company": "Hermès",
     "location": "Singapore, Singapore",
@@ -520,26 +542,70 @@
     "detail_enrich_status": "ok"
   },
   {
-    "title": "Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore",
+    "title": "Regulatory Reporting IT Business Analyst",
+    "company": "BNP Paribas",
+    "location": "Hong Kong, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/regulatory-reporting-it-business-analyst-at-bnp-paribas-4376713033",
+    "score": 96,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
+    ],
+    "description": "Regulatory Reporting IT Business Analyst Regulatory Reporting IT Business Analyst BNP Paribas Hong Kong, Hong Kong SAR Actively Hiring 8 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583533+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583535+00:00",
+    "original_score": 91,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: BNP Paribas."
+  },
+  {
+    "title": "ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting",
     "company": "EY",
     "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/associate-consultant-global-compliance-and-reporting-application-development-tax-singapore-at-ey-4385035901",
-    "score": 100,
+    "url": "https://sg.linkedin.com/jobs/view/servicenow-techno-functional-analyst-sa-m-digital-and-emerging-tech-technology-consulting-at-ey-4385035826",
+    "score": 96,
     "recommendation": "Apply",
     "priority": "High",
     "source": "LinkedIn SG",
     "job_type": "Full-time / Graduate",
     "reasons": [
-      "Matches target keywords: associate, consultant, compliance",
+      "Matches target keywords: analyst, consulting",
       "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
+      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
     ],
-    "description": "Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore Associate / Consultant, Global Compliance and Reporting (Application Development), Tax, Singapore EY Singapore, Singapore Actively Hiring 10 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583475+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583478+00:00",
-    "original_score": 95,
+    "description": "ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting EY Singapore, Singapore Be an early applicant 12 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583505+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583507+00:00",
+    "original_score": 91,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
+    "title": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "company": "Deloitte",
+    "location": "Hong Kong",
+    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
+    "score": 95,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "Official",
+    "job_type": "Official Portal",
+    "reasons": [
+      "Matches target keywords: graduate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074861+00:00",
+    "original_score": 90,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
     "title": "Data Analyst - Marketplace Product",
@@ -563,28 +629,6 @@
     "company_quality_reason": "Preferred company matched: Shopee.",
     "description": "Shopee hiring Data Analyst - Marketplace Product in Singapore, Singapore | LinkedIn Skip to main content LinkedIn Data Analyst - Marketplace Product in Hong Kong Expand search Jobs This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection. Jobs People Learning Clear text Clear text Clear text Clear text Clear text Sign in Join now Data Analyst - Marketplace Product Shopee Singapore, Singapore Apply Data Analyst - Marketplace Product Shopee Singapore, Singapore 13 hours ago Over 200 applicants See who Shopee has hired for this role Apply Save Report this job Use AI to assess how you fit Get AI-powered advice on this job and more exclusive features. Am I a good fit for this job? Tailor my resume Sign in to access AI-powered advices Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Sign in to evaluate your skills Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Sign in to tailor your resume Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Direct message the job poster from Shopee Jordan Cordell Ong Jordan Cordell Ong Recruiting at Shopee Singapore | Hiring Strategic Talents! 🤩 About the Team: Our Chatbot & Customer Service team is redefining the Shopee platform experience through cutting-edge Conversational AI. We are seeking a Product Analyst who is passionate about leveraging data to shape the future of our chatbot product. In this role, you will go beyond traditional analysis to gain a deep understanding of the machine learning models that power our chatbot, design robust evaluation frameworks, and partner directly with Data Scientists to drive model iteration and product strategy. Your insights will be critical in creating a more intuitive, helpful, and successful shopping assistant for our millions of users. Job Description: Advanced Metrics Design: Architect the key metrics and evaluation frameworks that define success for our chatbot product. Move beyond standard metrics to develop sophisticated measures of user satisfaction, conversation quality, task completion, and long-term business impact (e.g., conversion lift, support ticket deflection). Data-Driven Product Strategy: Translate complex data and model performance into clear, actionable insights for product and engineering teams. Your analysis will directly influence the product roadmap and prioritisation of new features. Cross-Functional DS Collaboration: Work hand-in-hand with Data Scientists, ML Engineers, and Product Managers to formulate hypotheses, design effective A/B tests and multivariate experiments for model and feature launches, and analyse results to provide actionable recommendations. Holistic User Journey & UX Analysis: Conduct comprehensive analyses of the entire user conversation flow. Identify key drop-off points, friction areas, and moments of delight within the chatbot experience. Partner with UX Researchers to triangulate quantitative data with qualitative feedback. Stakeholder Management & Communication: Communicate findings and recommendations effectively to all levels of the organisation, from engineers to senior management. Build and maintain scalable dashboards and reports to provide visibility into chatbot health and performance. Develop Domain Expertise: Become the subject matter expert on marketplace dynamics as they relate to conversational commerce, understanding user behavior, and the business impact of the chatbot. Requirements: Bachelor's degree or above in Business Analytics, Statistics, Computer Science and Mathematics or a related science/tech field At least 1 year of working experience as a Data/Business/Product/Customer Analyst, Consultant, or other related fields is preferred Expert knowledge in analytical tools such as SQL, Excel Highly responsible and independent, with strong sense of ownership Strong analytical, curious, business-oriented and written/oral communication skills Demonstrates structural thinking, problem-solving, able to break down problems into actionable solution (s) Demonstrate good data visualisation and experience using its tools (e.g. Tableau, Data Studio) Keen learner, open to feedback and self-improvement Experience and strong working knowledge of various aspects of Data Analyst is preferred Show more Show less Seniority level Associate Employment type Full-time Job function Product Management, Project Management, and Consulting Industries Software Development and Internet Marketplace Platforms Referrals increase your chances of interviewing at Shopee by 2x See who you know Get notified when a new job is posted. Set alert Sign in to set job alerts for “Data Analyst” roles. Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Similar jobs Junior Data Analyst - Business Intelligence, Regional Operations Junior Data Analyst - Business Intelligence, Regional Operations Shopee Singapore, Singapore 2 weeks ago Data Analyst - Shopee (2026 Fresh Graduates) Data Analyst - Shopee (2026 Fresh Graduates) Shopee Singapore, Singapore 1 week ago Growth Data Analyst Growth Data Analyst Crypto.com Singapore, Singapore 1 week ago Data Analyst - Business Intelligence, Regional Logistics Data Analyst - Business Intelligence, Regional Logistics Shopee Singapore, Singapore 2 weeks ago Business Intelligence Analyst (AI & Data Analytics) Business Intelligence Analyst (AI & Data Analytics) Shopee Singapore, Singapore 1 month ago Data Analyst Data Analyst Klook Singapore, Singapore 1 week ago Data Analyst - Business Intelligence, Marketplace Operations Data Analyst - Business Intelligence, Marketplace Operations Shopee Singapore, Singapore 2 weeks ago Business Intelligence Analyst, Shopee COO Office (2026 Graduates) Business Intelligence Analyst, Shopee COO Office (2026 Graduates) Shopee Singapore, Singapore 2 weeks ago Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Shopee Singapore, Singapore 3 weeks ago Business Data Analyst Business Data Analyst Pierre Fabre Laboratories Singapore, Singapore 2 weeks ago Data Analyst Data Analyst Vita Coco Singapore, Singapore 3 weeks ago Data Analyst - Brand Analytics, Regional Brand Partnership Data Analyst - Brand Analytics, Regional Brand Partnership Shopee Singapore, Singapore 1 week ago Operations & Data Analytics Associate / Senior Associate Operations & Data Analytics Associate / Senior Associate Shopee Singapore, Singapore 2 weeks ago Business Intelligence Analyst - Shopee COO Office Business Intelligence Analyst - Shopee COO Office Shopee Singapore, Singapore 4 days ago Business Data Analyst, Regional Marketplace Operations Business Data Analyst, Regional Marketplace Operations Shopee Singapore, Singapore 2 weeks ago Data Analyst Data Analyst Mercedes-Benz Singapore Jurong East, West Region, Singapore 1 week ago Data Analyst, Regional BI & Planning Data Analy",
     "detail_enrich_status": "ok"
-  },
-  {
-    "title": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "company": "Deloitte",
-    "location": "Hong Kong",
-    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
-    "score": 95,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "Official",
-    "job_type": "Official Portal",
-    "reasons": [
-      "Matches target keywords: graduate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
-    "last_seen_at": "2026-04-29T18:09:24.835044+00:00",
-    "original_score": 90,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
     "title": "Business Intelligence Solution Analyst - SG Business Intelligence",
@@ -743,6 +787,28 @@
     "company_quality_reason": "Preferred company matched: DBS."
   },
   {
+    "title": "Operations Strategy Analyst/ Consultant - Regional Operations",
+    "company": "Shopee",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/operations-strategy-analyst-consultant-regional-operations-at-shopee-4183344867",
+    "score": 92,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, consultant, strategy, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Operations Strategy Analyst/ Consultant - Regional Operations Operations Strategy Analyst/ Consultant - Regional Operations Shopee Singapore, Singapore Actively Hiring 12 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583596+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583598+00:00",
+    "original_score": 87,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Shopee."
+  },
+  {
     "title": "Global Banking & Markets - FICC Trading, Analyst/Associate, Tokyo",
     "company": "Goldman Sachs",
     "location": "Minato, Tokyo, Japan",
@@ -765,50 +831,6 @@
     "company_quality_reason": "Preferred company matched: Goldman Sachs."
   },
   {
-    "title": "Regulatory Reporting IT Business Analyst",
-    "company": "BNP Paribas",
-    "location": "Hong Kong, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/regulatory-reporting-it-business-analyst-at-bnp-paribas-4376713033",
-    "score": 96,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, business analyst",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc"
-    ],
-    "description": "Regulatory Reporting IT Business Analyst Regulatory Reporting IT Business Analyst BNP Paribas Hong Kong, Hong Kong SAR Actively Hiring 8 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583533+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583535+00:00",
-    "original_score": 91,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: BNP Paribas."
-  },
-  {
-    "title": "ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting",
-    "company": "EY",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/servicenow-techno-functional-analyst-sa-m-digital-and-emerging-tech-technology-consulting-at-ey-4385035826",
-    "score": 96,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, consulting",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
-    ],
-    "description": "ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting ServiceNow Techno-functional Analyst (SA/M),Digital and Emerging Tech, Technology Consulting EY Singapore, Singapore Be an early applicant 12 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583505+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583507+00:00",
-    "original_score": 91,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
-  },
-  {
     "title": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
     "company": "Deloitte",
     "location": "Hong Kong",
@@ -825,10 +847,32 @@
     ],
     "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
     "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
-    "last_seen_at": "2026-04-29T18:09:24.835163+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.075102+00:00",
     "original_score": 86,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "KYC Operations Analyst - International Personal Banking, Wealth Operations",
+    "company": "Citi",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/kyc-operations-analyst-international-personal-banking-wealth-operations-at-citi-4331910226",
+    "score": 91,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: risk/compliance/kyc"
+    ],
+    "description": "KYC Operations Analyst - International Personal Banking, Wealth Operations KYC Operations Analyst - International Personal Banking, Wealth Operations Citi Singapore, Singapore 10 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583742+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583744+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Citi."
   },
   {
     "title": "Business Analyst (Payments, Banking, Chinese / Mandarin Proficiency)",
@@ -1032,6 +1076,28 @@
     "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
+    "title": "FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong",
+    "company": "EY",
+    "location": "Hong Kong, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/fso-consulting-%E2%80%93-technology-risk-%E2%80%93-penetration-testing-purple-team-%E2%80%93-sr-consultant-consultant-%E2%80%93-hong-kong-at-ey-4407340067",
+    "score": 88,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: consulting, consultant, risk",
+      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc",
+      "Priority company or target employer group."
+    ],
+    "description": "FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong EY Hong Kong, Hong Kong SAR Be an early applicant 19 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583777+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583780+00:00",
+    "original_score": 83,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
     "title": "Operations Executive (Risk & Controls) | 1-Year Contract #RL",
     "company": "",
     "location": "Singapore",
@@ -1076,28 +1142,6 @@
     "company_quality_reason": ""
   },
   {
-    "title": "Operations Strategy Analyst/ Consultant - Regional Operations",
-    "company": "Shopee",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/operations-strategy-analyst-consultant-regional-operations-at-shopee-4183344867",
-    "score": 92,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, consultant, strategy, operations",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Operations Strategy Analyst/ Consultant - Regional Operations Operations Strategy Analyst/ Consultant - Regional Operations Shopee Singapore, Singapore Actively Hiring 12 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583596+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583598+00:00",
-    "original_score": 87,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Shopee."
-  },
-  {
     "title": "Associate, Capital Markets (DCM/ECM), Hong Kong",
     "company": "",
     "location": "Hong Kong",
@@ -1120,26 +1164,26 @@
     "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
-    "title": "KYC Operations Analyst - International Personal Banking, Wealth Operations",
-    "company": "Citi",
+    "title": "Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate)",
+    "company": "Shopee",
     "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/kyc-operations-analyst-international-personal-banking-wealth-operations-at-citi-4331910226",
-    "score": 91,
+    "url": "https://sg.linkedin.com/jobs/view/junior-data-analyst-marketing-analytics-regional-brand-growth-marketing-2026-graduate-at-shopee-4296845461",
+    "score": 86,
     "recommendation": "Apply",
     "priority": "High",
     "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
+    "job_type": "Full-time / Graduate",
     "reasons": [
-      "Matches target keywords: analyst, operations",
+      "Matches target keywords: graduate, analyst",
       "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: risk/compliance/kyc"
+      "Relevant role family: payment/fintech/data"
     ],
-    "description": "KYC Operations Analyst - International Personal Banking, Wealth Operations KYC Operations Analyst - International Personal Banking, Wealth Operations Citi Singapore, Singapore 10 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583742+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583744+00:00",
-    "original_score": 86,
+    "description": "Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Shopee Singapore, Singapore 12 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.583832+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.583835+00:00",
+    "original_score": 81,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Citi."
+    "company_quality_reason": "Preferred company matched: Shopee."
   },
   {
     "title": "Finance Governance & Digitalisation Analyst",
@@ -1362,6 +1406,72 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Finance Analyst Support",
+    "company": "Huxley",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/finance-analyst-support-at-huxley-4408733612",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, finance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Finance Analyst Support Finance Analyst Support Huxley Tokyo, Tokyo, Japan Be an early applicant 1 day ago",
+    "first_seen_at": "2026-05-01T08:00:01.074745+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074747+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
+    "title": "Analyst - Payment Product Partnerships",
+    "company": "American Express",
+    "location": "Minato, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/analyst-payment-product-partnerships-at-american-express-4407676502",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, payment",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Analyst - Payment Product Partnerships Analyst - Payment Product Partnerships American Express Minato, Tokyo, Japan Be an early applicant 2 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074699+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074716+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: American Express."
+  },
+  {
+    "title": "Regional Business Strategy Analyst",
+    "company": "Shopee",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/regional-business-strategy-analyst-at-shopee-4407383414",
+    "score": 84,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, strategy",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Regional Business Strategy Analyst Regional Business Strategy Analyst Shopee Singapore, Singapore Be an early applicant 12 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.584142+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584144+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Shopee."
+  },
+  {
     "title": "Data Analyst - Global Payments (Third-party Contractor)",
     "company": "ByteDance",
     "location": "Singapore, Singapore",
@@ -1541,28 +1651,6 @@
     "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Preferred company matched: MUFG.",
     "description": "MUFG hiring Analyst, Commodity Trade Finance Middle Office in Marina South, Central Singapore Community Development Council, Singapore | LinkedIn Skip to main content LinkedIn Analyst, Commodity Trade Finance Middle Office in Hong Kong Expand search Jobs This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection. Jobs People Learning Clear text Clear text Clear text Clear text Clear text Sign in Join now Analyst, Commodity Trade Finance Middle Office MUFG Marina South, Central Singapore Community Development Council, Singapore Apply Join or sign in to find your next job Join to apply for the Analyst, Commodity Trade Finance Middle Office role at MUFG Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Join with email or Continue with Google Continue with Google Already on LinkedIn? Sign in By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Analyst, Commodity Trade Finance Middle Office MUFG Marina South, Central Singapore Community Development Council, Singapore 12 hours ago Be among the first 25 applicants See who MUFG has hired for this role Apply Join or sign in to find your next job Join to apply for the Analyst, Commodity Trade Finance Middle Office role at MUFG Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Join with email or Continue with Google Continue with Google Already on LinkedIn? Sign in By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Save Report this job Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world’s most trusted financial group, it’s part of our culture to put people first, listen to new and diverse ideas and collaborate toward greater innovation, speed and agility. This means investing in talent, technologies, and tools that empower you to own your career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. This position is responsible for monitoring exposures and collateral value to ensure financings remain within approved limits, and facility structures/conditions, maintaining, creating and designing all necessary controls and execute administrative duties required for facility and day-to-day execution of client’s request by working closely with other relevant Operations Departments. Job Descriptions: Respond to clients’ requests and coordinate with the relevant Operations Depts for the prompt execution of transactions on daily basis; Respond to clients’ export LC discount requirements by liaising with Tokyo on the granting of FI limits; Liaise with clients daily to follow up on all relevant transactions for proper monitoring/management within credit approvals; Respond to clients’ ad-hoc requests and at times, special requests, which may require discussions with the various depts. within the bank to meet their requirements; Process all respective client requests submitted under approved facilities in accordance with all approvals and conditions; Administer, monitor and control on a daily basis the Commodity Trade Finance (“CTF”) clients’ utilizations and exposures under the facility portfolio. This will ensure correct determination of facility availability at time of new requests or enquiries, and allow decisions to be made that may be proceeded or not; Administer the credit limit setup of Commodity Structured Finance (“CSF”) accounts. Given a portfolio of accounts (CTF/CSF/JC/GSB) to handle, to be familiar with individual processes and business flows for each different client; taking an ownership view; Ensure proper/full legal documentation in place before establishing of credit facilities in bank system; Handles the receiving/safekeeping and releasing of security trade documents on daily basis (within division procedures); Ensure credit approval conditions are adhered to by maintaining updated and accurate records in the Transaction Management Tool, “Yojin”; Monitor balances between Bank’s OVS system and “Yojin” or all allocated or monitored limits in order to retain an accurate record of exposure; Ensure compliance with relevant regulations and limits; Maintain good working knowledge of industry trends, products, relevant laws and regulations; Adhere to all company policies / guidelines. Job Requirements: Bachelor’s degree in finance or accounting or business or similar field. Minimum 3 years’ experience in Commodity Trade Finance or Structured Trade Finance Operations (Back Office) or Collateral Management (Middle Office) functions from banking or commodity trading houses Experience working in middle or back-office functions within Commodity Trade Finance Good interpersonal and communication skills, team-player, ability to adapt to changing needs of the organization and demands of internal and external stakeholders Mitsubishi UFJ Financial Group (MUFG) is an equal opportunity employer. We view our employees as our key assets as they are fundamental to our long-term growth and success. MUFG is committed to hiring based on merit and organsational fit, regardless of race, religion or gender. Show more Show less Seniority level Mid-Senior level Employment type Full-time Job function Business Development and Sales Industries Financial Services and Banking Referrals increase your chances of interviewing at MUFG by 2x See who you know Get notified about new Analyst jobs in Marina South, Central Singapore Community Development Council, Singapore . Sign in to create job alert Similar jobs Junior Data Analyst - Business Intelligence, Regional Operations Junior Data Analyst - Business Intelligence, Regional Operations Shopee Singapore, Singapore 2 weeks ago Product Analyst, Strategy and Operations Product Analyst, Strategy and Operations Google Singapore 4 days ago Business Analyst - Regional Marketplace Operations Business Analyst - Regional Marketplace Operations Shopee Singapore, Singapore 1 month ago Data Analyst - Marketplace Product Data Analyst - Marketplace Product Shopee Singapore, Singapore 13 hours ago Investment Banking Graduate Analyst - Singapore Investment Banking Graduate Analyst - Singapore Jefferies Singapore, Singapore 2 weeks ago Data Analyst - Business Intelligence, Regional Logistics Data Analyst - Business Intelligence, Regional Logistics Shopee Singapore, Singapore 2 weeks ago Strategy and Operations Associate, APAC, Commercial Deals Operations Strategy and Operations Associate, APAC, Commercial Deals Operations Google Singapore 5 days ago Business Intelligence Analyst (AI & Data Analytics) Business Intelligence Analyst (AI & Data Analytics) Shopee Singapore, Singapore 1 month ago KYC Analyst KYC Analyst YouTrip Singapore, Singapore 2 days ago Data Analyst - Shopee (2026 Fresh Graduates) Data Analyst - Shopee (2026 Fresh Graduates) Shopee Singapore, Singapore 1 week ago Business Data Analyst, Regional Marketplace Operations Business Data Analyst, Regional Marketplace Operations Shopee Singapore, Singapore 2 weeks ago Growth Data Analyst Growth Data Analyst Crypto.com Singapore, Singapore 1 week ago Business Intelligence Analyst, Shopee COO Office (2026 Graduates) Business Intelligence Analyst, Shopee COO Office (2026 Graduates) Shopee Singapore, Singapore 2 weeks ago Business Analyst - Instant Commerce Business Analyst - Instant Commerce Shopee Singapore, Singapore 1 month ago Data Analyst - Regional Buyer & Marketing D",
     "detail_enrich_status": "ok"
-  },
-  {
-    "title": "FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong",
-    "company": "EY",
-    "location": "Hong Kong, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/fso-consulting-%E2%80%93-technology-risk-%E2%80%93-penetration-testing-purple-team-%E2%80%93-sr-consultant-consultant-%E2%80%93-hong-kong-at-ey-4407340067",
-    "score": 88,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: consulting, consultant, risk",
-      "Relevant role family: consulting/strategy/advisory, risk/compliance/kyc",
-      "Priority company or target employer group."
-    ],
-    "description": "FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong FSO Consulting – Technology Risk – Penetration Testing & Purple Team – Sr Consultant/Consultant – Hong Kong EY Hong Kong, Hong Kong SAR Be an early applicant 19 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583777+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583780+00:00",
-    "original_score": 83,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
   },
   {
     "title": "Business Analyst - Transformation / Automation (CIO Office)",
@@ -1964,6 +2052,28 @@
     "detail_enrich_status": "ok"
   },
   {
+    "title": "Equity / OTC Derivatives Operations Analyst",
+    "company": "BNP Paribas",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/equity-otc-derivatives-operations-analyst-at-bnp-paribas-4355002984",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Equity / OTC Derivatives Operations Analyst Equity / OTC Derivatives Operations Analyst BNP Paribas Singapore, Singapore 9 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.584598+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584600+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: BNP Paribas."
+  },
+  {
     "title": "Operations Assistant (Fresh Graduate Welcome)",
     "company": "",
     "location": "Hong Kong",
@@ -2007,28 +2117,6 @@
     "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Preferred company matched: MUFG.",
     "description": "MUFG hiring Corporate Advisory Intern in Marina South, Central Singapore Community Development Council, Singapore | LinkedIn Skip to main content LinkedIn Corporate Advisory Intern in Hong Kong Expand search Jobs This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection. Jobs People Learning Clear text Clear text Clear text Clear text Clear text Sign in Join now Corporate Advisory Intern MUFG Marina South, Central Singapore Community Development Council, Singapore Apply Join or sign in to find your next job Join to apply for the Corporate Advisory Intern role at MUFG Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Corporate Advisory Intern MUFG Marina South, Central Singapore Community Development Council, Singapore 10 hours ago Be among the first 25 applicants See who MUFG has hired for this role Apply Join or sign in to find your next job Join to apply for the Corporate Advisory Intern role at MUFG Continue with Google Continue with Google Email or phone Password Show Forgot password? Sign in Sign in with Email or Continue with Google Continue with Google New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy . Save Report this job Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world’s most trusted financial group, it’s part of our culture to put people first, listen to new and diverse ideas and collaborate toward greater innovation, speed and agility. This means investing in talent, technologies, and tools that empower you to own your career. Join MUFG, where being inspired is expected and making a meaningful impact is rewarded. Corporate Advisory Office Corporate Advisory Intern Internship Period: 3 August 2026 to 31 December 2026 This position is with the Corporate Advisory Office (CAO), which provide our clients with corporate finance and strategic advice in relation to mergers and acquisitions (“M&A”) in the Asia and Oceania region. Job Description Support Corporate Advisory Office to achieve smooth execution of M&A projects through research and analysis of data. Assist in deal origination by proactively supporting the team in various tasks. This includes maintenance of the team database, conducting financial analysis and building financial model for the purpose of valuation. Assist in preparing good presentation materials for the purpose of deal origination and deal execution. Job Requirements Pursuing a Bachelor’s degree in Business, Finance, Accounting, Economics or a related field Self-motivated team player who has a keen interest in financial analysis and corporate finance Able to deliver work under demanding timelines in a fast moving environment Strong communication and interpersonal skills Possess advanced/intermediate proficiency in MS Office (PowerPoint & Excel) Good knowledge of research tools such as CAP IQ, MergerMarket, SPEEDA and Bloomberg will be advantageous IMPORTANT NOTE Interested applicants will be required to submit CV and Cover Letter Please submit your details via our early careers website at Careers (myworkdayjobs.com) Do note that only shortlisted applicants will be notified This internship role is based in Singapore. It is open to Singaporean and PR students only. In Singapore, MUFG internship partners include National University of Singapore, Nanyang Technological University, Singapore Management University, Singapore University of Technology and Design (SUTD) and Singapore University of Social Sciences (SUSS). Mitsubishi UFJ Financial Group (MUFG) is an equal opportunity employer. We view our employees as our key assets as they are fundamental to our long-term growth and success. MUFG is committed to hiring based on merit and organsational fit, regardless of race, religion or gender. Show more Show less Seniority level Internship Employment type Full-time Job function Education and Training Industries Financial Services Referrals increase your chances of interviewing at MUFG by 2x See who you know Get notified about new Corporate Intern jobs in Marina South, Central Singapore Community Development Council, Singapore . Sign in to create job alert Similar jobs Intern, Luxury Group, APEC Intern, Luxury Group, APEC Marriott International Singapore, Singapore 6 days ago Client Marketing Intern Client Marketing Intern Christian Dior Couture Singapore, Singapore 1 week ago Intern, Marketing Intern, Marketing Shangri-La Group Singapore, Singapore 2 weeks ago Intern, Brand Marketing, Premium and Select Intern, Brand Marketing, Premium and Select Marriott International Singapore, Singapore 1 day ago E-commerce & Marketing Intern, SEA E-commerce & Marketing Intern, SEA Benefit Cosmetics Singapore, Singapore 3 weeks ago Intern, F&B Strategy & Marketing Intern, F&B Strategy & Marketing Marriott International Singapore, Singapore 6 days ago Intern, Communications (Corporate Social Responsibility) Intern, Communications (Corporate Social Responsibility) Marina Bay Sands Singapore, Singapore 4 days ago Business Marketing Intern Business Marketing Intern Maybank Investment Banking Group Singapore, Singapore 3 months ago Intern Marketing & Retail Operations (Porsche Lifestyle) Intern Marketing & Retail Operations (Porsche Lifestyle) Porsche Asia Pacific Pte Ltd Singapore, Singapore 1 week ago Intern, Hospitality Marketing Intern, Hospitality Marketing Marina Bay Sands Singapore, Singapore 2 weeks ago M&A Intern (Jul - Dec 2026) M&A Intern (Jul - Dec 2026) Danone Singapore, Singapore 2 weeks ago Brand Marketing Intern - Regional Marketing (Summer 2026) Brand Marketing Intern - Regional Marketing (Summer 2026) Shopee Singapore, Singapore 1 day ago Intern, Marketing (6-Month Internship) Intern, Marketing (6-Month Internship) Under Armour Singapore, Singapore 1 month ago Marketing Intern Marketing Intern Fresh Singapore, Singapore 1 week ago Marketing Intern, SEA Marketing Intern, SEA MAKE UP FOR EVER Singapore, Singapore 2 weeks ago Intern Marketing & Business Development (Singapore) Intern Marketing & Business Development (Singapore) Porsche Asia Pacific Pte Ltd Singapore, Singapore 1 week ago Marketing Intern Marketing Intern COS Singapore, Singapore 1 week ago Intern, Brand Marketing Intern, Brand Marketing Marriott International Singapore, Singapore 5 days ago Marketing Analytics Intern Marketing Analytics Intern foodpanda Singapore, Singapore 1 week ago Marketing Intern - Acqua di Parma and LVMH Fragrance Brands Marketing Intern - Acqua di Parma and LVMH Fragrance Brands LVMH Perfumes & Cosmetics Singapore, Singapore 2 days ago Marketing Operations and Analytics Intern (Immediate) Marketing Operations and Analytics Intern (Immediate) Univers Singapore, Singapore 6 days ago Marketing Intern, Travel Retail APAC Marketing Intern, Travel Retail APAC MAKE UP FOR EVER Singapore, Singapore 3 weeks ago Marketing Intern Marketing Intern Contentsquare Singapore 16 hours ago Group Marketing Intern Group Marketing Intern Richemont Singapore, Singapore 8 hours ago Marketing Intern Marketing Intern finexis advisory Pte Ltd Singapore, Singapore 1 week ago Show more jobs like this Show fewer jobs like this People also viewed Regional Marketing Intern Regional Marketing Intern Guerla",
     "detail_enrich_status": "ok"
-  },
-  {
-    "title": "Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate)",
-    "company": "Shopee",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/junior-data-analyst-marketing-analytics-regional-brand-growth-marketing-2026-graduate-at-shopee-4296845461",
-    "score": 86,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: graduate, analyst",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: payment/fintech/data"
-    ],
-    "description": "Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Junior Data Analyst - Marketing Analytics, Regional Brand & Growth Marketing (2026 Graduate) Shopee Singapore, Singapore 12 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.583832+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.583835+00:00",
-    "original_score": 81,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Shopee."
   },
   {
     "title": "Graduate Sustainability Consultant",
@@ -2187,6 +2275,50 @@
     "detail_enrich_status": "ok"
   },
   {
+    "title": "2026 HSBC Singapore Group Infrastructure Graduate Programme",
+    "company": "HSBC",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/2026-hsbc-singapore-group-infrastructure-graduate-programme-at-hsbc-4408738273",
+    "score": 80,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "2026 HSBC Singapore Group Infrastructure Graduate Programme 2026 HSBC Singapore Group Infrastructure Graduate Programme HSBC Singapore, Singapore Actively Hiring 19 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.584732+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584736+00:00",
+    "original_score": 75,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: HSBC."
+  },
+  {
+    "title": "2026 HSBC Singapore Group Infrastructure Graduate Programme - People",
+    "company": "HSBC",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/2026-hsbc-singapore-group-infrastructure-graduate-programme-people-at-hsbc-4408764357",
+    "score": 80,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "2026 HSBC Singapore Group Infrastructure Graduate Programme - People 2026 HSBC Singapore Group Infrastructure Graduate Programme - People HSBC Singapore, Singapore Actively Hiring 15 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.584669+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584671+00:00",
+    "original_score": 75,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: HSBC."
+  },
+  {
     "title": "Section Head, Digital Acquisition & Engagement",
     "company": "",
     "location": "Hong Kong",
@@ -2251,6 +2383,72 @@
     "original_score": 80,
     "company_quality_decision": "keep",
     "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
+  },
+  {
+    "title": "Finance Analyst",
+    "company": "ABB",
+    "location": "Seoul, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/finance-analyst-at-abb-4405214357",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, finance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Finance Analyst Finance Analyst ABB Seoul, Seoul, South Korea Actively Hiring 15 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074828+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074830+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "FP&A Analyst",
+    "company": "Gates Corporation",
+    "location": "Seoul Incheon Metropolitan Area",
+    "url": "https://kr.linkedin.com/jobs/view/fp-a-analyst-at-gates-corporation-4289849768",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, fp&a",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "FP&A Analyst FP&A Analyst Gates Corporation Seoul Incheon Metropolitan Area Actively Hiring 21 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074805+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074808+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Analyst, Corporate Finance, Japan - アナリスト（コーポレート・ファイナンス、日本",
+    "company": "Alvarez & Marsal",
+    "location": "Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/analyst-corporate-finance-japan-%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88%EF%BC%88%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B9%E3%80%81%E6%97%A5%E6%9C%AC-at-alvarez-marsal-4316102285",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, finance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Analyst, Corporate Finance, Japan - アナリスト（コーポレート・ファイナンス、日本 Analyst, Corporate Finance, Japan - アナリスト（コーポレート・ファイナンス、日本 Alvarez & Marsal Tokyo, Japan Actively Hiring 20 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074780+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074782+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
   },
   {
     "title": "Business System Analyst – Finance (P2P/R2R)",
@@ -2603,28 +2801,6 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Regional Business Strategy Analyst",
-    "company": "Shopee",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/regional-business-strategy-analyst-at-shopee-4407383414",
-    "score": 84,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, strategy",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Regional Business Strategy Analyst Regional Business Strategy Analyst Shopee Singapore, Singapore Be an early applicant 12 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.584142+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584144+00:00",
-    "original_score": 79,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Shopee."
   },
   {
     "title": "Business Analyst - CTRM",
@@ -3449,28 +3625,6 @@
     "company_quality_reason": "Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
   },
   {
-    "title": "Equity / OTC Derivatives Operations Analyst",
-    "company": "BNP Paribas",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/equity-otc-derivatives-operations-analyst-at-bnp-paribas-4355002984",
-    "score": 82,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, operations",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Equity / OTC Derivatives Operations Analyst Equity / OTC Derivatives Operations Analyst BNP Paribas Singapore, Singapore 9 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.584598+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584600+00:00",
-    "original_score": 77,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: BNP Paribas."
-  },
-  {
     "title": "Intern, Data Analyst",
     "company": "Sea",
     "location": "Singapore, Singapore",
@@ -3629,6 +3783,226 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Part-time Search Analyst South Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Daechi-dong, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-south-korea-work-from-home-at-telus-digital-ai-data-solutions-4406485953",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part-time Search Analyst South Korea (Work From Home) Part-time Search Analyst South Korea (Work From Home) TELUS Digital AI Data Solutions Daechi-dong, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.075073+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.075075+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Gwangjin District, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-korea-work-from-home-at-telus-digital-ai-data-solutions-4406485913",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst Korea (Work From Home) Part time Search Analyst Korea (Work From Home) TELUS Digital AI Data Solutions Gwangjin District, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.075054+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.075055+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Gangbuk District, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-korea-work-from-home-at-telus-digital-ai-data-solutions-4406700047",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst Korea (Work From Home) Part time Search Analyst Korea (Work From Home) TELUS Digital AI Data Solutions Gangbuk District, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.075034+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.075035+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Dobong-gu, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-korea-work-from-home-at-telus-digital-ai-data-solutions-4406486866",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst Korea (Work From Home) Part time Search Analyst Korea (Work From Home) TELUS Digital AI Data Solutions Dobong-gu, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.075014+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.075015+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part-time Search Analyst South Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Deokjeong-ri, Gyeonggi, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-south-korea-work-from-home-at-telus-digital-ai-data-solutions-4406491746",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part-time Search Analyst South Korea (Work From Home) Part-time Search Analyst South Korea (Work From Home) TELUS Digital AI Data Solutions Deokjeong-ri, Gyeonggi, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074994+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074995+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst South Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Seongbuk District, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-south-korea-work-from-home-at-telus-digital-ai-data-solutions-4406701027",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst South Korea (Work From Home) Part time Search Analyst South Korea (Work From Home) TELUS Digital AI Data Solutions Seongbuk District, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074974+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074976+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part-time Search Analyst South Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Jungigol, Gyeonggi, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-south-korea-work-from-home-at-telus-digital-ai-data-solutions-4406484985",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part-time Search Analyst South Korea (Work From Home) Part-time Search Analyst South Korea (Work From Home) TELUS Digital AI Data Solutions Jungigol, Gyeonggi, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074954+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074956+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst South Korea (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Seocho District, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-search-analyst-south-korea-work-from-home-at-telus-digital-ai-data-solutions-4406494497",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst South Korea (Work From Home) Part time Search Analyst South Korea (Work From Home) TELUS Digital AI Data Solutions Seocho District, Seoul, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074934+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074935+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Work From Home Search Analyst Korea",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Pocheon, Gyeonggi, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/part-time-work-from-home-search-analyst-korea-at-telus-digital-ai-data-solutions-4406491670",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Work From Home Search Analyst Korea Part time Work From Home Search Analyst Korea TELUS Digital AI Data Solutions Pocheon, Gyeonggi, South Korea Be an early applicant 16 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074911+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074913+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
+    "title": "Part time Search Analyst Japan (Work From Home)",
+    "company": "TELUS Digital AI Data Solutions",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/part-time-search-analyst-japan-work-from-home-at-telus-digital-ai-data-solutions-4406482905",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Part time Search Analyst Japan (Work From Home) Part time Search Analyst Japan (Work From Home) TELUS Digital AI Data Solutions Tokyo, Tokyo, Japan Be an early applicant 17 hours ago",
+    "first_seen_at": "2026-05-01T08:00:01.074885+00:00",
+    "last_seen_at": "2026-05-01T08:00:01.074886+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
+  },
+  {
     "title": "Data analyst (leading retail bank) 35k",
     "company": "Michael Page",
     "location": "Kowloon, Hong Kong SAR",
@@ -3761,28 +4135,6 @@
     "company_quality_reason": ""
   },
   {
-    "title": "Procurement & Agency Data Analyst, SPX Singapore",
-    "company": "Shopee",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/procurement-agency-data-analyst-spx-singapore-at-shopee-4397237009",
-    "score": 60,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: payment/fintech/data"
-    ],
-    "description": "Procurement & Agency Data Analyst, SPX Singapore Procurement & Agency Data Analyst, SPX Singapore Shopee Singapore, Singapore 1 hour ago",
-    "first_seen_at": "2026-04-30T13:18:05.613214+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584923+00:00",
-    "original_score": 75,
-    "company_quality_decision": "review",
-    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Preferred company matched: Shopee."
-  },
-  {
     "title": "Financial Analyst",
     "company": "Ascendion",
     "location": "Singapore, Singapore",
@@ -3891,72 +4243,6 @@
     "original_score": 75,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Sr/Data Analyst (Data Science) Data Office, IDTD",
-    "company": "PUB, Singapore's National Water Agency",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/sr-data-analyst-data-science-data-office-idtd-at-pub-singapore-s-national-water-agency-4406436812",
-    "score": 55,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: payment/fintech/data"
-    ],
-    "description": "Sr/Data Analyst (Data Science) Data Office, IDTD Sr/Data Analyst (Data Science) Data Office, IDTD PUB, Singapore's National Water Agency Singapore, Singapore 20 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.584763+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584764+00:00",
-    "original_score": 75,
-    "company_quality_decision": "review",
-    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
-  },
-  {
-    "title": "2026 HSBC Singapore Group Infrastructure Graduate Programme",
-    "company": "HSBC",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/2026-hsbc-singapore-group-infrastructure-graduate-programme-at-hsbc-4408738273",
-    "score": 80,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: graduate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "2026 HSBC Singapore Group Infrastructure Graduate Programme 2026 HSBC Singapore Group Infrastructure Graduate Programme HSBC Singapore, Singapore Actively Hiring 19 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.584732+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584736+00:00",
-    "original_score": 75,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: HSBC."
-  },
-  {
-    "title": "2026 HSBC Singapore Group Infrastructure Graduate Programme - People",
-    "company": "HSBC",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/2026-hsbc-singapore-group-infrastructure-graduate-programme-people-at-hsbc-4408764357",
-    "score": 80,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: graduate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "2026 HSBC Singapore Group Infrastructure Graduate Programme - People 2026 HSBC Singapore Group Infrastructure Graduate Programme - People HSBC Singapore, Singapore Actively Hiring 15 hours ago",
-    "first_seen_at": "2026-05-01T01:52:51.584669+00:00",
-    "last_seen_at": "2026-05-01T01:52:51.584671+00:00",
-    "original_score": 75,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: HSBC."
   },
   {
     "title": "KYC Quality Assurance Analyst (L3)",
@@ -4388,6 +4674,28 @@
     "detail_enrich_status": "ok"
   },
   {
+    "title": "Procurement & Agency Data Analyst, SPX Singapore",
+    "company": "Shopee",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/procurement-agency-data-analyst-spx-singapore-at-shopee-4397237009",
+    "score": 60,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Procurement & Agency Data Analyst, SPX Singapore Procurement & Agency Data Analyst, SPX Singapore Shopee Singapore, Singapore 1 hour ago",
+    "first_seen_at": "2026-04-30T13:18:05.613214+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584923+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Preferred company matched: Shopee."
+  },
+  {
     "title": "Business Analyst (Client Services) - Leading Investment Bank",
     "company": "PFCC Group",
     "location": "Hong Kong, Hong Kong SAR",
@@ -4661,6 +4969,28 @@
     "original_score": 78,
     "company_quality_decision": "review",
     "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Company name is missing or looks like a source label, but no penalty applied for JobsDB/JobStreet."
+  },
+  {
+    "title": "Sr/Data Analyst (Data Science) Data Office, IDTD",
+    "company": "PUB, Singapore's National Water Agency",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/sr-data-analyst-data-science-data-office-idtd-at-pub-singapore-s-national-water-agency-4406436812",
+    "score": 55,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Sr/Data Analyst (Data Science) Data Office, IDTD Sr/Data Analyst (Data Science) Data Office, IDTD PUB, Singapore's National Water Agency Singapore, Singapore 20 hours ago",
+    "first_seen_at": "2026-05-01T01:52:51.584763+00:00",
+    "last_seen_at": "2026-05-01T01:52:51.584764+00:00",
+    "original_score": 75,
+    "company_quality_decision": "review",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched."
   },
   {
     "title": "Regional Assistant Data Analyst",
