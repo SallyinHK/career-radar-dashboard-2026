@@ -396,6 +396,28 @@
     "company_quality_reason": "Preferred company matched: BNP Paribas."
   },
   {
+    "title": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "company": "Deloitte",
+    "location": "Hong Kong",
+    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
+    "score": 95,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "Official",
+    "job_type": "Official Portal",
+    "reasons": [
+      "Matches target keywords: graduate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625283+00:00",
+    "original_score": 90,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
     "title": "Associate - EY-Parthenon, Transactions & Corporate Finance - Financial Diligence (2026 Graduates)",
     "company": "EY-Parthenon",
     "location": "Singapore, Singapore",
@@ -435,28 +457,6 @@
     "description": "T&L: Associate - Tax Technology Consulting (2026 Graduate) T&L: Associate - Tax Technology Consulting (2026 Graduate) Deloitte Singapore, Singapore Actively Hiring 15 hours ago",
     "first_seen_at": "2026-06-10T02:09:09.649161+00:00",
     "last_seen_at": "2026-06-10T02:09:09.649162+00:00",
-    "original_score": 90,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
-  },
-  {
-    "title": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "company": "Deloitte",
-    "location": "Hong Kong",
-    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
-    "score": 95,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "Official",
-    "job_type": "Official Portal",
-    "reasons": [
-      "Matches target keywords: graduate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
-    "last_seen_at": "2026-06-10T02:08:12.132078+00:00",
     "original_score": 90,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
@@ -836,6 +836,50 @@
     "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
+    "title": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
+    "company": "Deloitte",
+    "location": "Hong Kong",
+    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/internship-program.html",
+    "score": 91,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "Official",
+    "job_type": "Official Portal",
+    "reasons": [
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group.",
+      "Relevant location: Hong Kong."
+    ],
+    "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
+    "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625339+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "Associate / Consultant, International Tax and Transaction Services",
+    "company": "EY",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/associate-consultant-international-tax-and-transaction-services-at-ey-4423627406",
+    "score": 91,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: associate, consultant",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Associate / Consultant, International Tax and Transaction Services Associate / Consultant, International Tax and Transaction Services EY Singapore, Singapore Be an early applicant 1 hour ago",
+    "first_seen_at": "2026-06-11T10:02:19.140635+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.140636+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
     "title": "Asset & Wealth Managed Services (AWMS) - Risk & Compliance Solutions (Internal Audit and Risk) - Internship",
     "company": "PwC Singapore",
     "location": "Singapore",
@@ -856,28 +900,6 @@
     "original_score": 86,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: PwC."
-  },
-  {
-    "title": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
-    "company": "Deloitte",
-    "location": "Hong Kong",
-    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/internship-program.html",
-    "score": 91,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "Official",
-    "job_type": "Official Portal",
-    "reasons": [
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group.",
-      "Relevant location: Hong Kong."
-    ],
-    "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
-    "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
-    "last_seen_at": "2026-06-10T02:08:12.132274+00:00",
-    "original_score": 86,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
     "title": "SR&T Analyst - Forensic & Financial Crime (1 Year Contract/Graduates 2026) 1",
@@ -1142,6 +1164,50 @@
     "original_score": 84,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Goldman Sachs."
+  },
+  {
+    "title": "Finance Data Domain Architect Associate",
+    "company": "JPMorganChase",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/finance-data-domain-architect-associate-at-jpmorganchase-4398578928",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, finance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Finance Data Domain Architect Associate Finance Data Domain Architect Associate JPMorganChase Singapore Actively Hiring 36 minutes ago",
+    "first_seen_at": "2026-06-11T10:02:19.140722+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.140723+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: JPMorgan."
+  },
+  {
+    "title": "Business Analyst - Project Sirena (Contract)",
+    "company": "HSBC",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/business-analyst-project-sirena-contract-at-hsbc-4427171487",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Business Analyst - Project Sirena (Contract) Business Analyst - Project Sirena (Contract) HSBC Singapore, Singapore Be an early applicant 3 hours ago",
+    "first_seen_at": "2026-06-11T10:02:19.140707+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.140708+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: HSBC."
   },
   {
     "title": "Cost Optimization Strategy Associate",
@@ -1516,28 +1582,6 @@
     "original_score": 86,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Associate / Consultant, International Tax and Transaction Services",
-    "company": "EY",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/associate-consultant-international-tax-and-transaction-services-at-ey-4423627406",
-    "score": 91,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: associate, consultant",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Associate / Consultant, International Tax and Transaction Services Associate / Consultant, International Tax and Transaction Services EY Singapore, Singapore Be an early applicant 1 hour ago",
-    "first_seen_at": "2026-06-11T10:02:19.140635+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.140636+00:00",
-    "original_score": 86,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
   },
   {
     "title": "IT Business Analyst (AML | 35K )",
@@ -2112,50 +2156,6 @@
     "company_quality_reason": "Preferred company matched: Google."
   },
   {
-    "title": "Finance Data Domain Architect Associate",
-    "company": "JPMorganChase",
-    "location": "Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/finance-data-domain-architect-associate-at-jpmorganchase-4398578928",
-    "score": 89,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: associate, finance",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: finance/accounting/valuation"
-    ],
-    "description": "Finance Data Domain Architect Associate Finance Data Domain Architect Associate JPMorganChase Singapore Actively Hiring 36 minutes ago",
-    "first_seen_at": "2026-06-11T10:02:19.140722+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.140723+00:00",
-    "original_score": 84,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: JPMorgan."
-  },
-  {
-    "title": "Business Analyst - Project Sirena (Contract)",
-    "company": "HSBC",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/business-analyst-project-sirena-contract-at-hsbc-4427171487",
-    "score": 89,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: analyst, business analyst",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Business Analyst - Project Sirena (Contract) Business Analyst - Project Sirena (Contract) HSBC Singapore, Singapore Be an early applicant 3 hours ago",
-    "first_seen_at": "2026-06-11T10:02:19.140707+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.140708+00:00",
-    "original_score": 84,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: HSBC."
-  },
-  {
     "title": "T&L: Associate - Global Investment & Innovation Incentives (Gi3) (2026 Graduate)",
     "company": "Deloitte",
     "location": "Singapore, Singapore",
@@ -2330,6 +2330,28 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Samsung."
+  },
+  {
+    "title": "ビジネスアナリスト・ITコンサルタント | Business Analyst/ IT Consultant - ハイブリット勤務",
+    "company": "Skillhouse Staffing Solutions K.K.",
+    "location": "Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88%E3%83%BBit%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-business-analyst-it-consultant-%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%88%E5%8B%A4%E5%8B%99-at-skillhouse-staffing-solutions-k-k-4426208789",
+    "score": 83,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, consultant, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "ビジネスアナリスト・ITコンサルタント | Business Analyst/ IT Consultant - ハイブリット勤務 ビジネスアナリスト・ITコンサルタント | Business Analyst/ IT Consultant - ハイブリット勤務 Skillhouse Staffing Solutions K.K. Tokyo, Japan Be an early applicant 7 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.624973+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.624990+00:00",
+    "original_score": 83,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
   },
   {
     "title": "Consulting Analyst / Research Consultant",
@@ -2792,6 +2814,50 @@
     "original_score": 83,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
+  },
+  {
+    "title": "Officer, Cash Management Operations Intermediate Analyst",
+    "company": "Citi",
+    "location": "Kowloon City District, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/officer-cash-management-operations-intermediate-analyst-at-citi-4416302177",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Officer, Cash Management Operations Intermediate Analyst Officer, Cash Management Operations Intermediate Analyst Citi Kowloon City District, Hong Kong SAR Be an early applicant 17 hours ago",
+    "first_seen_at": "2026-06-11T10:02:19.141457+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.141457+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Citi."
+  },
+  {
+    "title": "Equities - Electronic Execution Sales - Analyst/ Associate",
+    "company": "JPMorganChase",
+    "location": "Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/equities-electronic-execution-sales-analyst-associate-at-jpmorganchase-4417323169",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Equities - Electronic Execution Sales - Analyst/ Associate Equities - Electronic Execution Sales - Analyst/ Associate JPMorganChase Hong Kong SAR Actively Hiring 10 minutes ago",
+    "first_seen_at": "2026-06-11T10:02:19.141431+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.141432+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: JPMorgan."
   },
   {
     "title": "Data Solutions Operations - Automation Analyst",
@@ -3300,6 +3366,28 @@
     "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
+    "title": "Regional Operations & Strategy Intern (Content & Creator) (Fall 2026)",
+    "company": "Shopee",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/regional-operations-strategy-intern-content-creator-fall-2026-at-shopee-3834493152",
+    "score": 86,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: strategy, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Regional Operations & Strategy Intern (Content & Creator) (Fall 2026) Regional Operations & Strategy Intern (Content & Creator) (Fall 2026) Shopee Singapore, Singapore Actively Hiring 3 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625019+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625021+00:00",
+    "original_score": 81,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Shopee."
+  },
+  {
     "title": "Executive Trainee",
     "company": "Nova Insurance Consultants Limited",
     "location": "Kowloon, Hong Kong SAR",
@@ -3674,6 +3762,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "International Private Bank, Analyst - China Market",
+    "company": "JPMorganChase",
+    "location": "Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/international-private-bank-analyst-china-market-at-jpmorganchase-4407873279",
+    "score": 80,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn HK",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "International Private Bank, Analyst - China Market International Private Bank, Analyst - China Market JPMorganChase Hong Kong SAR 23 hours ago",
+    "first_seen_at": "2026-06-11T10:02:19.141670+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.141671+00:00",
+    "original_score": 75,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: JPMorgan."
+  },
+  {
     "title": "Data Analyst",
     "company": "Computer Futures",
     "location": "Tokyo, Japan",
@@ -3760,6 +3870,116 @@
     "original_score": 75,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "Market Risk Analyst",
+    "company": "ING Wholesale Banking",
+    "location": "Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/market-risk-analyst-at-ing-wholesale-banking-4423619796",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, risk",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: risk/compliance/kyc"
+    ],
+    "description": "Market Risk Analyst Market Risk Analyst ING Wholesale Banking Seoul, South Korea Be an early applicant 6 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625149+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625151+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Business Analyst",
+    "company": "Worldhire",
+    "location": "Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-at-worldhire-4426220631",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Business Analyst Business Analyst Worldhire Tokyo, Japan Be an early applicant 9 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625126+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625127+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Business Analyst",
+    "company": "Bank of America",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-at-bank-of-america-4427037730",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Business Analyst Business Analyst Bank of America Tokyo, Tokyo, Japan Actively Hiring 23 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625102+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625104+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Business Analyst (Onboarding)",
+    "company": "Computer Futures",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-onboarding-at-computer-futures-4427502677",
+    "score": 84,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Business Analyst (Onboarding) Business Analyst (Onboarding) Computer Futures Tokyo, Tokyo, Japan Be an early applicant 5 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625077+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625079+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Futu."
+  },
+  {
+    "title": "Business Analyst – Japan Pharma Commercial Data (1213)",
+    "company": "Axtria - Ingenious Insights",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-%E2%80%93-japan-pharma-commercial-data-1213-at-axtria-ingenious-insights-4374510059",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Business Analyst – Japan Pharma Commercial Data (1213) Business Analyst – Japan Pharma Commercial Data (1213) Axtria - Ingenious Insights Tokyo, Tokyo, Japan Be an early applicant 5 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625051+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625053+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
   },
   {
     "title": "Regulatory Risk Analyst",
@@ -8470,26 +8690,26 @@
     "company_quality_reason": ""
   },
   {
-    "title": "Business Management Trainee (Welcome Fresh Graduate)",
-    "company": "AIA Hong Kong and Macau",
-    "location": "Hong Kong, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/business-management-trainee-welcome-fresh-graduate-at-aia-hong-kong-and-macau-4426177673",
-    "score": 0,
+    "title": "Cross-Border M&A Consultant (Accounting & Finance Background)",
+    "company": "Japan Corporate Advisory Institute, Ltd.",
+    "location": "Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/cross-border-m-a-consultant-accounting-finance-background-at-japan-corporate-advisory-institute-ltd-4426190027",
+    "score": 78,
     "recommendation": "Maybe",
     "priority": "Medium",
-    "source": "LinkedIn HK",
+    "source": "LinkedIn Japan",
     "job_type": "Full-time / Graduate",
     "reasons": [
-      "Matches target keywords: graduate, trainee, management trainee",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant location: Hong Kong, Hong Kong SAR."
+      "Matches target keywords: finance, consultant, advisory",
+      "Relevant role family: finance/accounting/valuation, consulting/strategy/advisory",
+      "Relevant location: Tokyo, Japan."
     ],
-    "description": "Business Management Trainee (Welcome Fresh Graduate) Business Management Trainee (Welcome Fresh Graduate) AIA Hong Kong and Macau Hong Kong, Hong Kong SAR Be an early applicant 6 hours ago",
-    "first_seen_at": "2026-06-11T10:02:19.141346+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.141347+00:00",
+    "description": "Cross-Border M&A Consultant (Accounting & Finance Background) Cross-Border M&A Consultant (Accounting & Finance Background) Japan Corporate Advisory Institute, Ltd. Tokyo, Japan Be an early applicant 14 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625184+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625186+00:00",
     "original_score": 78,
-    "company_quality_decision": "exclude",
-    "company_quality_reason": "Company is blacklisted: AIA."
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
   },
   {
     "title": "Consultant, Corporate Finance l Capital Advisors",
@@ -8580,26 +8800,48 @@
     "company_quality_reason": ""
   },
   {
-    "title": "Officer, Cash Management Operations Intermediate Analyst",
-    "company": "Citi",
-    "location": "Kowloon City District, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/officer-cash-management-operations-intermediate-analyst-at-citi-4416302177",
-    "score": 82,
+    "title": "Digital eCommerce & Campaign Operations Intern #Generalinternship",
+    "company": "Singtel",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/digital-ecommerce-campaign-operations-intern-%23generalinternship-at-singtel-4427521311",
+    "score": 0,
     "recommendation": "Maybe",
     "priority": "Medium",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
     "reasons": [
-      "Matches target keywords: analyst, operations",
+      "Matches target keywords: operations",
       "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
+      "Relevant role family: payment/fintech/data"
     ],
-    "description": "Officer, Cash Management Operations Intermediate Analyst Officer, Cash Management Operations Intermediate Analyst Citi Kowloon City District, Hong Kong SAR Be an early applicant 17 hours ago",
-    "first_seen_at": "2026-06-11T10:02:19.141457+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.141457+00:00",
+    "description": "Digital eCommerce & Campaign Operations Intern #Generalinternship Digital eCommerce & Campaign Operations Intern #Generalinternship Singtel Singapore, Singapore Be an early applicant 3 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625227+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625229+00:00",
+    "original_score": 77,
+    "company_quality_decision": "exclude",
+    "company_quality_reason": "Company is blacklisted: Generali."
+  },
+  {
+    "title": "Risk Intern - 6 Month Internship Opportunity",
+    "company": "Tower Research Capital",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/risk-intern-6-month-internship-opportunity-at-tower-research-capital-4399226638",
+    "score": 77,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: risk",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: risk/compliance/kyc"
+    ],
+    "description": "Risk Intern - 6 Month Internship Opportunity Risk Intern - 6 Month Internship Opportunity Tower Research Capital Singapore Actively Hiring 26 minutes ago",
+    "first_seen_at": "2026-06-11T15:31:55.625206+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625208+00:00",
     "original_score": 77,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Citi."
+    "company_quality_reason": ""
   },
   {
     "title": "Junior International Benefits Consultant, Health & Benefits",
@@ -8622,28 +8864,6 @@
     "original_score": 77,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Equities - Electronic Execution Sales - Analyst/ Associate",
-    "company": "JPMorganChase",
-    "location": "Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/equities-electronic-execution-sales-analyst-associate-at-jpmorganchase-4417323169",
-    "score": 82,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, associate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Equities - Electronic Execution Sales - Analyst/ Associate Equities - Electronic Execution Sales - Analyst/ Associate JPMorganChase Hong Kong SAR Actively Hiring 10 minutes ago",
-    "first_seen_at": "2026-06-11T10:02:19.141431+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.141432+00:00",
-    "original_score": 77,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: JPMorgan."
   },
   {
     "title": "TRAINEE: Client Lifecycle and Digital",
@@ -8822,6 +9042,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Japanese Business Analyst",
+    "company": "SAI Digital",
+    "location": "Shinjuku-ku, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/japanese-business-analyst-at-sai-digital-4426236934",
+    "score": 76,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
+    ],
+    "description": "Japanese Business Analyst Japanese Business Analyst SAI Digital Shinjuku-ku, Tokyo, Japan Be an early applicant 4 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625251+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625252+00:00",
+    "original_score": 76,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Risk & Compliance Officer (FinTech / Payments)",
     "company": "Steenbok Pte Ltd",
     "location": "Singapore, Singapore",
@@ -8844,26 +9086,26 @@
     "company_quality_reason": ""
   },
   {
-    "title": "International Private Bank, Analyst - China Market",
-    "company": "JPMorganChase",
-    "location": "Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/international-private-bank-analyst-china-market-at-jpmorganchase-4407873279",
-    "score": 80,
+    "title": "Performance Marketing Data Analyst",
+    "company": "CJ CheilJedang",
+    "location": "Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/performance-marketing-data-analyst-at-cj-cheiljedang-4426216328",
+    "score": 75,
     "recommendation": "Maybe",
     "priority": "Medium",
-    "source": "LinkedIn HK",
-    "job_type": "Internship / Temporary",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
     "reasons": [
       "Matches target keywords: analyst",
       "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
+      "Relevant role family: payment/fintech/data"
     ],
-    "description": "International Private Bank, Analyst - China Market International Private Bank, Analyst - China Market JPMorganChase Hong Kong SAR 23 hours ago",
-    "first_seen_at": "2026-06-11T10:02:19.141670+00:00",
-    "last_seen_at": "2026-06-11T10:02:19.141671+00:00",
+    "description": "Performance Marketing Data Analyst Performance Marketing Data Analyst CJ CheilJedang Seoul, South Korea Be an early applicant 9 hours ago",
+    "first_seen_at": "2026-06-11T15:31:55.625309+00:00",
+    "last_seen_at": "2026-06-11T15:31:55.625310+00:00",
     "original_score": 75,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: JPMorgan."
+    "company_quality_reason": ""
   },
   {
     "title": "FINANCIAL ANALYST – Listed Electronics Manufacturing Services (EMS) & AI Ventures (Fotan)",
@@ -10536,6 +10778,28 @@
     "original_score": 81,
     "company_quality_decision": "exclude",
     "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched."
+  },
+  {
+    "title": "Business Management Trainee (Welcome Fresh Graduate)",
+    "company": "AIA Hong Kong and Macau",
+    "location": "Hong Kong, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/business-management-trainee-welcome-fresh-graduate-at-aia-hong-kong-and-macau-4426177673",
+    "score": 0,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, trainee, management trainee",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant location: Hong Kong, Hong Kong SAR."
+    ],
+    "description": "Business Management Trainee (Welcome Fresh Graduate) Business Management Trainee (Welcome Fresh Graduate) AIA Hong Kong and Macau Hong Kong, Hong Kong SAR Be an early applicant 6 hours ago",
+    "first_seen_at": "2026-06-11T10:02:19.141346+00:00",
+    "last_seen_at": "2026-06-11T10:02:19.141347+00:00",
+    "original_score": 78,
+    "company_quality_decision": "exclude",
+    "company_quality_reason": "Company is blacklisted: AIA."
   },
   {
     "title": "Investment Consultant / Wealth Management Advisor",
