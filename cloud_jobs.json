@@ -374,6 +374,28 @@
     "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
+    "title": "Graduate Program 2027 Graduate Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "company": "Deloitte",
+    "location": "Hong Kong",
+    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
+    "score": 95,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "Official",
+    "job_type": "Official Portal",
+    "reasons": [
+      "Matches target keywords: graduate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
+    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344424+00:00",
+    "original_score": 90,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
     "title": "Associate - Assurance, Technology Risk (2027 Graduates)",
     "company": "EY",
     "location": "Singapore, Singapore",
@@ -413,28 +435,6 @@
     "description": "T&L: Associate - Global Trade Advisory (2026 Graduate) T&L: Associate - Global Trade Advisory (2026 Graduate) Deloitte Singapore, Singapore Actively Hiring 15 hours ago",
     "first_seen_at": "2026-08-28T17:50:54.591885+00:00",
     "last_seen_at": "2026-08-28T17:50:54.591887+00:00",
-    "original_score": 90,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
-  },
-  {
-    "title": "Graduate Program 2027 Graduate Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "company": "Deloitte",
-    "location": "Hong Kong",
-    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/graduate-program.html",
-    "score": 95,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "Official",
-    "job_type": "Official Portal",
-    "reasons": [
-      "Matches target keywords: graduate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
-    "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
-    "last_seen_at": "2026-08-28T17:49:53.599956+00:00",
     "original_score": 90,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
@@ -632,10 +632,32 @@
     ],
     "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
     "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
-    "last_seen_at": "2026-08-28T17:49:53.600073+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344493+00:00",
     "original_score": 86,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027)",
+    "company": "KPMG Singapore",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/advisory-consulting-financial-services-technology-off-cycle-internship-jan-2027-to-june-2027-at-kpmg-singapore-4460590693",
+    "score": 91,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting, advisory",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027) Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027) KPMG Singapore Singapore, Singapore Be an early applicant 19 hours ago",
+    "first_seen_at": "2026-08-30T02:05:58.587638+00:00",
+    "last_seen_at": "2026-08-30T02:05:58.587640+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: KPMG."
   },
   {
     "title": "Data Analyst/ Analytics Associate (Finance & Actuarial Report)",
@@ -1584,28 +1606,6 @@
     "company_quality_reason": "Preferred company matched: EY."
   },
   {
-    "title": "Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027)",
-    "company": "KPMG Singapore",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/advisory-consulting-financial-services-technology-off-cycle-internship-jan-2027-to-june-2027-at-kpmg-singapore-4460590693",
-    "score": 91,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: consulting, advisory",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027) Advisory - Consulting, Financial Services Technology | Off-Cycle Internship (Jan 2027 to June 2027) KPMG Singapore Singapore, Singapore Be an early applicant 19 hours ago",
-    "first_seen_at": "2026-08-30T02:05:58.587638+00:00",
-    "last_seen_at": "2026-08-30T02:05:58.587640+00:00",
-    "original_score": 86,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: KPMG."
-  },
-  {
     "title": "Group Digital Business Analyst (AI-Enabled Operation Solutions)",
     "company": "HAECO",
     "location": "Hong Kong SAR",
@@ -1980,6 +1980,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "【New Graduates 2027】Associate Data Analyst",
+    "company": "Publicis Groupe Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90new-graduates-2027%E3%80%91associate-data-analyst-at-publicis-groupe-japan-4372846029",
+    "score": 85,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, analyst, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "【New Graduates 2027】Associate Data Analyst 【New Graduates 2027】Associate Data Analyst Publicis Groupe Japan Tokyo, Tokyo, Japan 21 hours ago",
+    "first_seen_at": "2026-08-30T10:51:20.344194+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344208+00:00",
+    "original_score": 85,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Private Equity Fund Accounting - Associate",
     "company": "JPMorganChase",
     "location": "Kwun Tong, Hong Kong SAR",
@@ -2310,6 +2332,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Junior Sales (Sales Support), Analyst/Associate, Investment Management",
+    "company": "Morgan Stanley",
+    "location": "Seoul, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/junior-sales-sales-support-analyst-associate-investment-management-at-morgan-stanley-4414462768",
+    "score": 84,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Junior Sales (Sales Support), Analyst/Associate, Investment Management Junior Sales (Sales Support), Analyst/Associate, Investment Management Morgan Stanley Seoul, Seoul, South Korea Actively Hiring 2 hours ago",
+    "first_seen_at": "2026-08-11T18:44:17.019250+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344310+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
     "title": "Associate - Assurance, Forensic - Data Analytics (2027 Graduates)",
     "company": "EY",
     "location": "Singapore, Singapore",
@@ -2506,28 +2550,6 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
-  },
-  {
-    "title": "Junior Sales (Sales Support), Analyst/Associate, Investment Management",
-    "company": "Morgan Stanley",
-    "location": "Seoul, Seoul, South Korea",
-    "url": "https://kr.linkedin.com/jobs/view/junior-sales-sales-support-analyst-associate-investment-management-at-morgan-stanley-4414462768",
-    "score": 84,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn Korea",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, associate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "Junior Sales (Sales Support), Analyst/Associate, Investment Management Junior Sales (Sales Support), Analyst/Associate, Investment Management Morgan Stanley Seoul, Seoul, South Korea Actively Hiring 2 hours ago",
-    "first_seen_at": "2026-08-11T18:44:17.019250+00:00",
-    "last_seen_at": "2026-08-25T00:34:49.520270+00:00",
-    "original_score": 79,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
   },
   {
     "title": "Finance Analyst – Regional FP&A TV Distribution (APAC)",
@@ -3476,6 +3498,28 @@
     "company_quality_reason": "Preferred company matched: EY."
   },
   {
+    "title": "Trainee - Financing and Advisory",
+    "company": "Societe Generale",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/trainee-financing-and-advisory-at-societe-generale-4414214521",
+    "score": 81,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Other / Review",
+    "reasons": [
+      "Matches target keywords: trainee, advisory",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Trainee - Financing and Advisory Trainee - Financing and Advisory Societe Generale Tokyo, Tokyo, Japan 34 minutes ago",
+    "first_seen_at": "2026-08-30T10:51:20.344236+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344237+00:00",
+    "original_score": 81,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Business Analyst Intern",
     "company": "Palo Alto Networks",
     "location": "Singapore, Singapore",
@@ -3938,6 +3982,50 @@
     "company_quality_reason": "Preferred company matched: Micron."
   },
   {
+    "title": "Sr Business Analyst",
+    "company": "Philip Morris International",
+    "location": "Seoul, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/sr-business-analyst-at-philip-morris-international-4444198626",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst, business analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Sr Business Analyst Sr Business Analyst Philip Morris International Seoul, Seoul, South Korea Actively Hiring 14 hours ago",
+    "first_seen_at": "2026-08-30T10:51:20.344280+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344282+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Sales Planning & Data Analyst , Rakuten Mobile Shop Business - Sales Planning Section , Business Operations Department , Area Business Supervisory Department(GSD)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/sales-planning-data-analyst-rakuten-mobile-shop-business-sales-planning-section-business-operations-department-area-business-supervisory-department-gsd-at-rakuten-4424729663",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Sales Planning & Data Analyst , Rakuten Mobile Shop Business - Sales Planning Section , Business Operations Department , Area Business Supervisory Department(GSD) Sales Planning & Data Analyst , Rakuten Mobile Shop Business - Sales Planning Section , Business Operations Department , Area Business Supervisory Department(GSD) Rakuten Tokyo, Tokyo, Japan Be an early applicant 34 minutes ago",
+    "first_seen_at": "2026-08-30T10:51:20.344263+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344264+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Associate - Strategic Advisory (Hong Kong)",
     "company": "PJT Partners",
     "location": "Hong Kong SAR",
@@ -4024,28 +4112,6 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Analyst, Strategy (6-month contract)",
-    "company": "Allianz Asia Pacific",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/analyst-strategy-6-month-contract-at-allianz-asia-pacific-4460581789",
-    "score": 0,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: analyst, strategy",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory"
-    ],
-    "description": "Analyst, Strategy (6-month contract) Analyst, Strategy (6-month contract) Allianz Asia Pacific Singapore, Singapore Be an early applicant 5 hours ago",
-    "first_seen_at": "2026-08-29T11:53:49.232541+00:00",
-    "last_seen_at": "2026-08-30T02:05:58.587722+00:00",
-    "original_score": 79,
-    "company_quality_decision": "exclude",
-    "company_quality_reason": "Company is blacklisted: Allianz."
   },
   {
     "title": "Quant Analyst (Risk Management)",
@@ -7348,6 +7414,72 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Aircraft Maintenance License Trainee (AMLT)",
+    "company": "SIA Engineering Company",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/aircraft-maintenance-license-trainee-amlt-at-sia-engineering-company-4047537521",
+    "score": 77,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Other / Review",
+    "reasons": [
+      "Matches target keywords: trainee",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: risk/compliance/kyc"
+    ],
+    "description": "Aircraft Maintenance License Trainee (AMLT) Aircraft Maintenance License Trainee (AMLT) SIA Engineering Company Singapore Actively Hiring 23 hours ago",
+    "first_seen_at": "2026-08-23T12:16:39.445811+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344399+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Global Banking and Markets, Operations - Japan Syndicate Execution and Processing, Analyst, Tokyo",
+    "company": "Goldman Sachs",
+    "location": "Minato, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/global-banking-and-markets-operations-japan-syndicate-execution-and-processing-analyst-tokyo-at-goldman-sachs-4432938220",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, operations",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Global Banking and Markets, Operations - Japan Syndicate Execution and Processing, Analyst, Tokyo Global Banking and Markets, Operations - Japan Syndicate Execution and Processing, Analyst, Tokyo Goldman Sachs Minato, Tokyo, Japan 18 hours ago",
+    "first_seen_at": "2026-08-30T10:51:20.344367+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344368+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Goldman Sachs."
+  },
+  {
+    "title": "[FST]【大阪採用】Finance Strategy & Transformation - 経理財務・経営管理領域のシステムコンサルタント",
+    "company": "KPMGジャパン／KPMG Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/fst-%E3%80%90%E5%A4%A7%E9%98%AA%E6%8E%A1%E7%94%A8%E3%80%91finance-strategy-transformation-%E7%B5%8C%E7%90%86%E8%B2%A1%E5%8B%99%E3%83%BB%E7%B5%8C%E5%96%B6%E7%AE%A1%E7%90%86%E9%A0%98%E5%9F%9F%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-kpmg%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%EF%BC%8Fkpmg-japan-3876326617",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Other / Review",
+    "reasons": [
+      "Matches target keywords: finance, strategy, transformation",
+      "Relevant role family: finance/accounting/valuation, consulting/strategy/advisory",
+      "Priority company or target employer group."
+    ],
+    "description": "[FST]【大阪採用】Finance Strategy & Transformation - 経理財務・経営管理領域のシステムコンサルタント [FST]【大阪採用】Finance Strategy & Transformation - 経理財務・経営管理領域のシステムコンサルタント KPMGジャパン／KPMG Japan Tokyo, Tokyo, Japan Be an early applicant 19 hours ago",
+    "first_seen_at": "2026-08-30T10:51:20.344342+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344344+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: KPMG."
+  },
+  {
     "title": "Internship - Strategy M&A Infineon Asia Pacific",
     "company": "Infineon Technologies",
     "location": "Singapore",
@@ -7700,28 +7832,6 @@
     "company_quality_reason": ""
   },
   {
-    "title": "Aircraft Maintenance License Trainee (AMLT)",
-    "company": "SIA Engineering Company",
-    "location": "Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/aircraft-maintenance-license-trainee-amlt-at-sia-engineering-company-4047537521",
-    "score": 77,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Other / Review",
-    "reasons": [
-      "Matches target keywords: trainee",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: risk/compliance/kyc"
-    ],
-    "description": "Aircraft Maintenance License Trainee (AMLT) Aircraft Maintenance License Trainee (AMLT) SIA Engineering Company Singapore Actively Hiring 23 hours ago",
-    "first_seen_at": "2026-08-23T12:16:39.445811+00:00",
-    "last_seen_at": "2026-08-23T12:16:39.445813+00:00",
-    "original_score": 77,
-    "company_quality_decision": "keep",
-    "company_quality_reason": ""
-  },
-  {
     "title": "JPN, 海外大, Autumn＆BCF選考, 2027 Summer Intern_Bachelor or Master with NO full-time work experience (Class of 2028)",
     "company": "Boston Consulting Group (BCG)",
     "location": "Tokyo, Japan",
@@ -7740,6 +7850,50 @@
     "first_seen_at": "2026-08-23T12:16:39.445717+00:00",
     "last_seen_at": "2026-08-23T12:16:39.445719+00:00",
     "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Investment Consultant (Entry Level Welcome) – Private Wealth",
+    "company": "Blackstone Recruitment®",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/investment-consultant-entry-level-welcome-%E2%80%93-private-wealth-at-blackstone-recruitment%C2%AE-4459710851",
+    "score": 35,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: consultant",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Investment Consultant (Entry Level Welcome) – Private Wealth Investment Consultant (Entry Level Welcome) – Private Wealth Blackstone Recruitment® Singapore Be an early applicant 5 hours ago",
+    "first_seen_at": "2026-08-30T10:51:20.344469+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344470+00:00",
+    "original_score": 75,
+    "company_quality_decision": "exclude",
+    "company_quality_reason": "Potential sales-heavy or low-analytical-content signal matched.; Consultant title is likely sales / advisory-sales oriented."
+  },
+  {
+    "title": "Management Accounting Analyst - AI & Data Division General Management Office (AIGMO)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/management-accounting-analyst-ai-data-division-general-management-office-aigmo-at-rakuten-4414930301",
+    "score": 75,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Management Accounting Analyst - AI & Data Division General Management Office (AIGMO) Management Accounting Analyst - AI & Data Division General Management Office (AIGMO) Rakuten Tokyo, Tokyo, Japan Be an early applicant 1 hour ago",
+    "first_seen_at": "2026-08-30T10:51:20.344445+00:00",
+    "last_seen_at": "2026-08-30T10:51:20.344446+00:00",
+    "original_score": 75,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
   },
@@ -9216,6 +9370,28 @@
     "original_score": 77,
     "company_quality_decision": "exclude",
     "company_quality_reason": "Strong sales / insurance / wealth-management risk keyword matched."
+  },
+  {
+    "title": "Analyst, Strategy (6-month contract)",
+    "company": "Allianz Asia Pacific",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/analyst-strategy-6-month-contract-at-allianz-asia-pacific-4460581789",
+    "score": 0,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: analyst, strategy",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Analyst, Strategy (6-month contract) Analyst, Strategy (6-month contract) Allianz Asia Pacific Singapore, Singapore Be an early applicant 5 hours ago",
+    "first_seen_at": "2026-08-29T11:53:49.232541+00:00",
+    "last_seen_at": "2026-08-30T02:05:58.587722+00:00",
+    "original_score": 79,
+    "company_quality_decision": "exclude",
+    "company_quality_reason": "Company is blacklisted: Allianz."
   },
   {
     "title": "Business Analyst, Advanced Operations Solutions (Systems)",
