@@ -170,7 +170,29 @@
     ],
     "description": "Graduate Program Spring Recruitment is now live — Join Us and Make Your Impact Learn more",
     "first_seen_at": "2026-04-29T16:57:16.031911+00:00",
-    "last_seen_at": "2026-10-16T10:16:49.885291+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.079018+00:00",
+    "original_score": 90,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "T&L: Associate - Tax Technology Consulting (2027 Graduate)",
+    "company": "Deloitte",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/t-l-associate-tax-technology-consulting-2027-graduate-at-deloitte-4450854247",
+    "score": 95,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, associate, consulting",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "T&L: Associate - Tax Technology Consulting (2027 Graduate) T&L: Associate - Tax Technology Consulting (2027 Graduate) Deloitte Singapore, Singapore 3 hours ago",
+    "first_seen_at": "2026-10-17T14:33:42.204412+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078582+00:00",
     "original_score": 90,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Deloitte."
@@ -240,6 +262,72 @@
     "original_score": 90,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Synpulse."
+  },
+  {
+    "title": "Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-digital-cloud-data-data-year-end-internship-dec-26-feb-27-at-pwc-singapore-4435034091",
+    "score": 94,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
+    ],
+    "description": "Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27) Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27) PwC Singapore Singapore 48 minutes ago",
+    "first_seen_at": "2026-10-17T14:33:42.204471+00:00",
+    "last_seen_at": "2026-10-17T14:33:42.204473+00:00",
+    "original_score": 89,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
+  },
+  {
+    "title": "Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-digital-cloud-data-data-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435012866",
+    "score": 94,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
+    ],
+    "description": "Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27) Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 1 hour ago",
+    "first_seen_at": "2026-10-17T14:33:42.204452+00:00",
+    "last_seen_at": "2026-10-17T14:33:42.204454+00:00",
+    "original_score": 89,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
+  },
+  {
+    "title": "SEAC Consulting Finance Off Cycle Internship (Jan - Jun 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/seac-consulting-finance-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435029340",
+    "score": 98,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: finance, consulting",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation, consulting/strategy/advisory"
+    ],
+    "description": "SEAC Consulting Finance Off Cycle Internship (Jan - Jun 27) SEAC Consulting Finance Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 11 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078512+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078539+00:00",
+    "original_score": 93,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
   },
   {
     "title": "Internship: Global Markets, Strategy, Planning & Finance [Jan - Jun 2027]",
@@ -330,6 +418,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Internship Program Winter Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
+    "company": "Deloitte",
+    "location": "Hong Kong",
+    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/internship-program.html",
+    "score": 91,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "Official",
+    "job_type": "Official Portal",
+    "reasons": [
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group.",
+      "Relevant location: Hong Kong."
+    ],
+    "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
+    "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.079241+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
     "title": "International Private Bank - Lending Advisory - Analyst",
     "company": "JPMorganChase",
     "location": "Hong Kong SAR",
@@ -350,28 +460,6 @@
     "original_score": 86,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: JPMorgan."
-  },
-  {
-    "title": "Internship Program Winter Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
-    "company": "Deloitte",
-    "location": "Hong Kong",
-    "url": "https://www.deloitte.com/cn/en/careers/explore-your-fit/students/internship-program.html",
-    "score": 91,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "Official",
-    "job_type": "Official Portal",
-    "reasons": [
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group.",
-      "Relevant location: Hong Kong."
-    ],
-    "description": "Internship Program Summer Internship Recruitment is now in full swing — Step Forward and Create Impact Learn more",
-    "first_seen_at": "2026-04-29T16:57:16.032130+00:00",
-    "last_seen_at": "2026-10-16T10:16:49.885454+00:00",
-    "original_score": 86,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
     "title": "SR&T Analyst, Forensic & Financial Crime - Fresh Graduate Hire - 1 Year Contract",
@@ -440,26 +528,26 @@
     "company_quality_reason": "Preferred company matched: KPMG."
   },
   {
-    "title": "T&L: Associate - Tax Technology Consulting (2027 Graduate)",
-    "company": "Deloitte",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/t-l-associate-tax-technology-consulting-2027-graduate-at-deloitte-4450854247",
+    "title": "Consulting - Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-strategy-operations-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435050621",
     "score": 95,
     "recommendation": "Apply",
     "priority": "High",
     "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
+    "job_type": "Internship / Temporary",
     "reasons": [
-      "Matches target keywords: graduate, associate, consulting",
+      "Matches target keywords: consulting, strategy, operations",
       "Looks potentially suitable for graduate / early-career search.",
       "Relevant role family: consulting/strategy/advisory"
     ],
-    "description": "T&L: Associate - Tax Technology Consulting (2027 Graduate) T&L: Associate - Tax Technology Consulting (2027 Graduate) Deloitte Singapore, Singapore 3 hours ago",
-    "first_seen_at": "2026-10-17T14:33:42.204412+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204428+00:00",
+    "description": "Consulting - Strategy & Operations Off Cycle Internship (Jan - Jun 27) Consulting - Strategy & Operations Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 12 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078608+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078610+00:00",
     "original_score": 90,
     "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
+    "company_quality_reason": "Preferred company matched: PwC."
   },
   {
     "title": "Digital Transformation Analyst",
@@ -682,6 +770,28 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Financial Analyst - Financial Restructuring, Hong Kong",
+    "company": "Houlihan Lokey",
+    "location": "Hong Kong, Hong Kong SAR",
+    "url": "https://hk.linkedin.com/jobs/view/financial-analyst-financial-restructuring-hong-kong-at-houlihan-lokey-4463139801",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn HK",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, restructuring",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Financial Analyst - Financial Restructuring, Hong Kong Financial Analyst - Financial Restructuring, Hong Kong Houlihan Lokey Hong Kong, Hong Kong SAR 3 hours ago",
+    "first_seen_at": "2026-10-17T14:33:42.204597+00:00",
+    "last_seen_at": "2026-10-17T14:33:42.204598+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
     "title": "Compliance, Global Banking & Markets Compliance, Analyst, Hong Kong",
     "company": "Goldman Sachs",
     "location": "Hong Kong, Hong Kong SAR",
@@ -724,50 +834,6 @@
     "original_score": 89,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27)",
-    "company": "PwC Singapore",
-    "location": "Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/consulting-digital-cloud-data-data-year-end-internship-dec-26-feb-27-at-pwc-singapore-4435034091",
-    "score": 94,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: consulting",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
-    ],
-    "description": "Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27) Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27) PwC Singapore Singapore 48 minutes ago",
-    "first_seen_at": "2026-10-17T14:33:42.204471+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204473+00:00",
-    "original_score": 89,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: PwC."
-  },
-  {
-    "title": "Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27)",
-    "company": "PwC Singapore",
-    "location": "Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/consulting-digital-cloud-data-data-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435012866",
-    "score": 94,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn SG",
-    "job_type": "Internship / Temporary",
-    "reasons": [
-      "Matches target keywords: consulting",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: consulting/strategy/advisory, payment/fintech/data"
-    ],
-    "description": "Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27) Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 1 hour ago",
-    "first_seen_at": "2026-10-17T14:33:42.204452+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204454+00:00",
-    "original_score": 89,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: PwC."
   },
   {
     "title": "Risk Services - Cyber Simulation Associate (July 2027 Intake)",
@@ -1276,6 +1342,72 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Consulting - Workforce Transformation Off Cycle Internship (Jan - Jun 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-workforce-transformation-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435051543",
+    "score": 91,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting, transformation",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Consulting - Workforce Transformation Off Cycle Internship (Jan - Jun 27) Consulting - Workforce Transformation Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 12 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078695+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078697+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
+  },
+  {
+    "title": "Consulting - Workforce Transformation Year-End Internship (Dec 26 - Feb 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-workforce-transformation-year-end-internship-dec-26-feb-27-at-pwc-singapore-4435048620",
+    "score": 91,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting, transformation",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Consulting - Workforce Transformation Year-End Internship (Dec 26 - Feb 27) Consulting - Workforce Transformation Year-End Internship (Dec 26 - Feb 27) PwC Singapore Singapore 11 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078673+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078675+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
+  },
+  {
+    "title": "PMI / カーブアウト_Corporate Finance & Transformation Strategy Unit（Strategy Consultant職_Manager以上）≪東京≫",
+    "company": "ABeam Consulting",
+    "location": "Chuo-ku, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/pmi-%E3%82%AB%E3%83%BC%E3%83%96%E3%82%A2%E3%82%A6%E3%83%88-corporate-finance-transformation-strategy-unit%EF%BC%88strategy-consultant%E8%81%B7-manager%E4%BB%A5%E4%B8%8A%EF%BC%89%E2%89%AA%E6%9D%B1%E4%BA%AC%E2%89%AB-at-abeam-consulting-4257976652",
+    "score": 86,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: finance, consulting, consultant, strategy, transformation",
+      "Relevant role family: finance/accounting/valuation, consulting/strategy/advisory",
+      "Relevant location: Chuo-ku, Tokyo, Japan."
+    ],
+    "description": "PMI / カーブアウト_Corporate Finance & Transformation Strategy Unit（Strategy Consultant職_Manager以上）≪東京≫ PMI / カーブアウト_Corporate Finance & Transformation Strategy Unit（Strategy Consultant職_Manager以上）≪東京≫ ABeam Consulting Chuo-ku, Tokyo, Japan Be an early applicant 13 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078648+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078650+00:00",
+    "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Business Analyst - Regulatory Reporting / NFRR",
     "company": "Argyll Scott",
     "location": "Singapore, Singapore",
@@ -1448,6 +1580,28 @@
     "first_seen_at": "2026-10-11T02:36:48.870484+00:00",
     "last_seen_at": "2026-10-11T02:36:48.870499+00:00",
     "original_score": 86,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Associate Consultant '27 Graduates",
+    "company": "Kinaxis",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/associate-consultant-27-graduates-at-kinaxis-4463360008",
+    "score": 85,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, associate, consultant",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Associate Consultant '27 Graduates Associate Consultant '27 Graduates Kinaxis Tokyo, Tokyo, Japan 16 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078721+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078723+00:00",
+    "original_score": 85,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
   },
@@ -1628,6 +1782,50 @@
     "company_quality_reason": ""
   },
   {
+    "title": "Associate - McKinsey Transformation",
+    "company": "McKinsey & Company",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/associate-mckinsey-transformation-at-mckinsey-company-4315127326",
+    "score": 89,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, transformation",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Associate - McKinsey Transformation Associate - McKinsey Transformation McKinsey & Company Tokyo, Tokyo, Japan Actively Hiring 15 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078752+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078754+00:00",
+    "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: EY."
+  },
+  {
+    "title": "T&L: Associate - Transfer Pricing (2027 Graduate)",
+    "company": "Deloitte",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/t-l-associate-transfer-pricing-2027-graduate-at-deloitte-4450861142",
+    "score": 84,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "T&L: Associate - Transfer Pricing (2027 Graduate) T&L: Associate - Transfer Pricing (2027 Graduate) Deloitte Singapore, Singapore 3 hours ago",
+    "first_seen_at": "2026-10-17T14:33:42.204810+00:00",
+    "last_seen_at": "2026-10-17T14:33:42.204811+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
     "title": "Associate Consultant - Banking",
     "company": "Synpulse",
     "location": "Singapore, Singapore",
@@ -1648,28 +1846,6 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": "Preferred company matched: Synpulse."
-  },
-  {
-    "title": "Financial Analyst - Financial Restructuring, Hong Kong",
-    "company": "Houlihan Lokey",
-    "location": "Hong Kong, Hong Kong SAR",
-    "url": "https://hk.linkedin.com/jobs/view/financial-analyst-financial-restructuring-hong-kong-at-houlihan-lokey-4463139801",
-    "score": 89,
-    "recommendation": "Apply",
-    "priority": "High",
-    "source": "LinkedIn HK",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: analyst, restructuring",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Relevant role family: finance/accounting/valuation"
-    ],
-    "description": "Financial Analyst - Financial Restructuring, Hong Kong Financial Analyst - Financial Restructuring, Hong Kong Houlihan Lokey Hong Kong, Hong Kong SAR 3 hours ago",
-    "first_seen_at": "2026-10-17T14:33:42.204597+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204598+00:00",
-    "original_score": 84,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: EY."
   },
   {
     "title": "T&L: Associate - Global Employer Services (2027 Graduate)",
@@ -1800,6 +1976,28 @@
     "first_seen_at": "2026-10-14T10:46:33.325930+00:00",
     "last_seen_at": "2026-10-15T02:09:00.604397+00:00",
     "original_score": 84,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Associate Consultant",
+    "company": "finexis advisory Pte Ltd",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/associate-consultant-at-finexis-advisory-pte-ltd-4479372112",
+    "score": 83,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, consultant, advisory",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Associate Consultant Associate Consultant finexis advisory Pte Ltd Singapore, Singapore Be an early applicant 22 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078778+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078780+00:00",
+    "original_score": 83,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
   },
@@ -2152,6 +2350,50 @@
     "first_seen_at": "2026-10-11T02:37:40.158284+00:00",
     "last_seen_at": "2026-10-11T02:37:40.158285+00:00",
     "original_score": 83,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Consulting - Cyber Consulting Off Cycle Internship (Jan - Jun 27)",
+    "company": "PwC Singapore",
+    "location": "Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/consulting-cyber-consulting-off-cycle-internship-jan-jun-27-at-pwc-singapore-4435055267",
+    "score": 87,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn SG",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: consulting",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Consulting - Cyber Consulting Off Cycle Internship (Jan - Jun 27) Consulting - Cyber Consulting Off Cycle Internship (Jan - Jun 27) PwC Singapore Singapore 12 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078824+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078826+00:00",
+    "original_score": 82,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: PwC."
+  },
+  {
+    "title": "Financial Data Analyst (Accounting)",
+    "company": "Toss",
+    "location": "Seoul, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/financial-data-analyst-accounting-at-toss-4461919770",
+    "score": 82,
+    "recommendation": "Apply",
+    "priority": "High",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation, payment/fintech/data"
+    ],
+    "description": "Financial Data Analyst (Accounting) Financial Data Analyst (Accounting) Toss Seoul, Seoul, South Korea 11 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078803+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078805+00:00",
+    "original_score": 82,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
   },
@@ -2860,6 +3102,72 @@
     "company_quality_reason": "Preferred company matched: JPMorgan."
   },
   {
+    "title": "T&L: Associate - Business Process Solutions (2027 Graduate)",
+    "company": "Deloitte",
+    "location": "Singapore, Singapore",
+    "url": "https://sg.linkedin.com/jobs/view/t-l-associate-business-process-solutions-2027-graduate-at-deloitte-4450855296",
+    "score": 84,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn SG",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: graduate, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "T&L: Associate - Business Process Solutions (2027 Graduate) T&L: Associate - Business Process Solutions (2027 Graduate) Deloitte Singapore, Singapore 14 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078901+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078903+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Deloitte."
+  },
+  {
+    "title": "Decision Analytics Associate Consultant (Tokyo, Osaka)",
+    "company": "ZS",
+    "location": "Minato, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/decision-analytics-associate-consultant-tokyo-osaka-at-zs-4351928321",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: associate, consultant",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: consulting/strategy/advisory"
+    ],
+    "description": "Decision Analytics Associate Consultant (Tokyo, Osaka) Decision Analytics Associate Consultant (Tokyo, Osaka) ZS Minato, Tokyo, Japan 16 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078877+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078878+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Expert Opportunity - Corporate Finance Analyst ($100/hr, up to $2,000/week)",
+    "company": "Ethos",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/expert-opportunity-corporate-finance-analyst-%24100-hr-up-to-%242-000-week-at-ethos-4453395194",
+    "score": 79,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, finance",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: finance/accounting/valuation"
+    ],
+    "description": "Expert Opportunity - Corporate Finance Analyst ($100/hr, up to $2,000/week) Expert Opportunity - Corporate Finance Analyst ($100/hr, up to $2,000/week) Ethos Tokyo, Tokyo, Japan Be an early applicant 13 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078851+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078853+00:00",
+    "original_score": 79,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
     "title": "Finance Analyst",
     "company": "Linjer",
     "location": "Hong Kong, Hong Kong SAR",
@@ -2968,28 +3276,6 @@
     "original_score": 79,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
-  },
-  {
-    "title": "T&L: Associate - Transfer Pricing (2027 Graduate)",
-    "company": "Deloitte",
-    "location": "Singapore, Singapore",
-    "url": "https://sg.linkedin.com/jobs/view/t-l-associate-transfer-pricing-2027-graduate-at-deloitte-4450861142",
-    "score": 84,
-    "recommendation": "Maybe",
-    "priority": "Medium",
-    "source": "LinkedIn SG",
-    "job_type": "Full-time / Graduate",
-    "reasons": [
-      "Matches target keywords: graduate, associate",
-      "Looks potentially suitable for graduate / early-career search.",
-      "Priority company or target employer group."
-    ],
-    "description": "T&L: Associate - Transfer Pricing (2027 Graduate) T&L: Associate - Transfer Pricing (2027 Graduate) Deloitte Singapore, Singapore 3 hours ago",
-    "first_seen_at": "2026-10-17T14:33:42.204810+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204811+00:00",
-    "original_score": 79,
-    "company_quality_decision": "keep",
-    "company_quality_reason": "Preferred company matched: Deloitte."
   },
   {
     "title": "Corporate Finance Analyst",
@@ -6770,10 +7056,54 @@
     ],
     "description": "Internship - Strategy and Business Excellence, Singapore (January to June 2027) Internship - Strategy and Business Excellence, Singapore (January to June 2027) GSK Singapore, Singapore Just now",
     "first_seen_at": "2026-10-05T02:45:42.459195+00:00",
-    "last_seen_at": "2026-10-17T14:33:42.204973+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078986+00:00",
     "original_score": 77,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
+  },
+  {
+    "title": "Rates Middle Office - Analyst/Associate",
+    "company": "JPMorganChase",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/rates-middle-office-analyst-associate-at-jpmorganchase-4386766570",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst, associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Rates Middle Office - Analyst/Associate Rates Middle Office - Analyst/Associate JPMorganChase Tokyo, Tokyo, Japan Actively Hiring 16 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078960+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078962+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: JPMorgan."
+  },
+  {
+    "title": "[FST]Finance Strategy & Transformation -経理財務・経営管理領域のシステムコンサルタント",
+    "company": "KPMGジャパン／KPMG Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/fst-finance-strategy-transformation-%E7%B5%8C%E7%90%86%E8%B2%A1%E5%8B%99%E3%83%BB%E7%B5%8C%E5%96%B6%E7%AE%A1%E7%90%86%E9%A0%98%E5%9F%9F%E3%81%AE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-kpmg%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%EF%BC%8Fkpmg-japan-3876329331",
+    "score": 82,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Other / Review",
+    "reasons": [
+      "Matches target keywords: finance, strategy, transformation",
+      "Relevant role family: finance/accounting/valuation, consulting/strategy/advisory",
+      "Priority company or target employer group."
+    ],
+    "description": "[FST]Finance Strategy & Transformation -経理財務・経営管理領域のシステムコンサルタント [FST]Finance Strategy & Transformation -経理財務・経営管理領域のシステムコンサルタント KPMGジャパン／KPMG Japan Tokyo, Tokyo, Japan Be an early applicant 11 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.078935+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.078937+00:00",
+    "original_score": 77,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: KPMG."
   },
   {
     "title": "Business Data Analyst Project Intern (GBS) - 2026 Start",
@@ -7300,6 +7630,72 @@
     "first_seen_at": "2026-10-16T10:16:49.885259+00:00",
     "last_seen_at": "2026-10-16T10:16:49.885261+00:00",
     "original_score": 76,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Data Analyst (7년 미만)",
+    "company": "Toss",
+    "location": "Seoul, Seoul, South Korea",
+    "url": "https://kr.linkedin.com/jobs/view/data-analyst-7%EB%85%84-%EB%AF%B8%EB%A7%8C-at-toss-4461920702",
+    "score": 75,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Korea",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Data Analyst (7년 미만) Data Analyst (7년 미만) Toss Seoul, Seoul, South Korea 11 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.079094+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.079095+00:00",
+    "original_score": 75,
+    "company_quality_decision": "keep",
+    "company_quality_reason": ""
+  },
+  {
+    "title": "Internal Audit – Fixed Income, Currency and Commodities Audit, Associate, Tokyo",
+    "company": "Goldman Sachs",
+    "location": "Minato, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/internal-audit-%E2%80%93-fixed-income-currency-and-commodities-audit-associate-tokyo-at-goldman-sachs-4385203450",
+    "score": 80,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Internship / Temporary",
+    "reasons": [
+      "Matches target keywords: associate",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Priority company or target employer group."
+    ],
+    "description": "Internal Audit – Fixed Income, Currency and Commodities Audit, Associate, Tokyo Internal Audit – Fixed Income, Currency and Commodities Audit, Associate, Tokyo Goldman Sachs Minato, Tokyo, Japan Actively Hiring 7 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.079068+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.079070+00:00",
+    "original_score": 75,
+    "company_quality_decision": "keep",
+    "company_quality_reason": "Preferred company matched: Goldman Sachs."
+  },
+  {
+    "title": "Product Data Analyst",
+    "company": "Pairs",
+    "location": "Tokyo, Tokyo, Japan",
+    "url": "https://jp.linkedin.com/jobs/view/product-data-analyst-at-pairs-4461989092",
+    "score": 75,
+    "recommendation": "Maybe",
+    "priority": "Medium",
+    "source": "LinkedIn Japan",
+    "job_type": "Full-time / Graduate",
+    "reasons": [
+      "Matches target keywords: analyst",
+      "Looks potentially suitable for graduate / early-career search.",
+      "Relevant role family: payment/fintech/data"
+    ],
+    "description": "Product Data Analyst Product Data Analyst Pairs Tokyo, Tokyo, Japan Be an early applicant 12 hours ago",
+    "first_seen_at": "2026-10-18T01:53:07.079044+00:00",
+    "last_seen_at": "2026-10-18T01:53:07.079045+00:00",
+    "original_score": 75,
     "company_quality_decision": "keep",
     "company_quality_reason": ""
   },
